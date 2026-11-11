@@ -1,0 +1,28 @@
+{"id": "T-F01", "type": "factuelle", "question": "Quelles sont les bases légales qui rendent un traitement de données licite ?", "gold": ["32016R0679_art_6"]}
+{"id": "T-F02", "type": "factuelle", "question": "Quels sont les principes relatifs au traitement des données personnelles ?", "gold": ["32016R0679_art_5"]}
+{"id": "T-F03", "type": "factuelle", "question": "Dans quel délai faut-il notifier une violation de données à l’autorité de contrôle ?", "gold": ["32016R0679_art_33"]}
+{"id": "T-F04", "type": "factuelle", "question": "Quand faut-il informer la personne concernée d’une violation de ses données ?", "gold": ["32016R0679_art_34"]}
+{"id": "T-F05", "type": "factuelle", "question": "À partir de quel âge un enfant peut-il consentir seul pour un service en ligne ?", "gold": ["32016R0679_art_8"]}
+{"id": "T-F06", "type": "factuelle", "question": "Dans quels cas peut-on obtenir l’effacement de ses données ?", "gold": ["32016R0679_art_17"]}
+{"id": "T-F07", "type": "factuelle", "question": "En quoi consiste le droit à la portabilité ?", "gold": ["32016R0679_art_20"]}
+{"id": "T-F08", "type": "factuelle", "question": "Peut-on refuser une décision entièrement automatisée, y compris le profilage ?", "gold": ["32016R0679_art_22"]}
+{"id": "T-F09", "type": "factuelle", "question": "Quand la désignation d’un DPO est-elle obligatoire ?", "gold": ["32016R0679_art_37"]}
+{"id": "T-F10", "type": "factuelle", "question": "Quel est le montant maximal des amendes du RGPD ?", "gold": ["32016R0679_art_83"]}
+{"id": "T-F11", "type": "factuelle", "question": "Quelles pratiques d’IA sont interdites ?", "gold": ["32024R1689_art_5"]}
+{"id": "T-F12", "type": "factuelle", "question": "Quelles obligations de transparence pour les IA qui génèrent du contenu ?", "gold": ["32024R1689_art_50"]}
+{"id": "T-F13", "type": "factuelle", "question": "Quelles obligations pour les fournisseurs de modèles d’IA à usage général ?", "gold": ["32024R1689_art_53"]}
+{"id": "T-F14", "type": "factuelle", "question": "À partir de combien d’utilisateurs une plateforme est-elle une « très grande plateforme » ?", "gold": ["32022R2065_art_33"]}
+{"id": "T-F15", "type": "factuelle", "question": "Comment fonctionne le mécanisme de notification et d’action pour un contenu illicite ?", "gold": ["32022R2065_art_16"]}
+{"id": "T-F16", "type": "factuelle", "question": "Qui sont les signaleurs de confiance ?", "gold": ["32022R2065_art_22"]}
+{"id": "T-F17", "type": "factuelle", "question": "Quelles mesures de gestion des risques de cybersécurité impose NIS2 ?", "gold": ["32022L2555_art_21"]}
+{"id": "T-F18", "type": "factuelle", "question": "Quelles sont les obligations de notification des incidents dans NIS2 ?", "gold": ["32022L2555_art_23"]}
+{"id": "T-F19", "type": "factuelle", "question": "Selon quels critères désigne-t-on un contrôleur d’accès ?", "gold": ["32022R1925_art_3"]}
+{"id": "T-F20", "type": "factuelle", "question": "Quelles règles facilitent le changement de fournisseur cloud ?", "gold": ["32023R2854_art_23"]}
+{"id": "T-M01", "type": "multi_hop", "question": "Sous quelles garanties des données de santé peuvent-elles servir à la recherche ?", "gold": ["32016R0679_art_9", "32016R0679_art_89"]}
+{"id": "T-M02", "type": "multi_hop", "question": "Le déployeur d’une IA à haut risque doit-il faire une AIPD, et avec quel contenu ?", "gold": ["32024R1689_art_26", "32016R0679_art_35"]}
+{"id": "T-M03", "type": "multi_hop", "question": "Comment l’analyse d’impact sur les droits fondamentaux de l’AI Act s’articule-t-elle avec l’AIPD ?", "gold": ["32024R1689_art_27", "32016R0679_art_35"]}
+{"id": "T-M04", "type": "multi_hop", "question": "Une plateforme peut-elle faire de la publicité ciblée à partir de données sensibles ?", "gold": ["32022R2065_art_26", "32016R0679_art_9"]}
+{"id": "T-M05", "type": "multi_hop", "question": "Un contrôleur d’accès peut-il combiner les données de ses services, et avec quel consentement ?", "gold": ["32022R1925_art_5", "32016R0679_art_6", "32016R0679_art_7"]}
+{"id": "T-M06", "type": "multi_hop", "question": "Quelles sanctions si une violation du Data Act touche des données personnelles ?", "gold": ["32023R2854_art_40", "32016R0679_art_83"]}
+{"id": "T-M07", "type": "multi_hop", "question": "Comment une institution de l’UE peut-elle transférer des données hors UE avec des garanties appropriées ?", "gold": ["32018R1725_art_48", "32016R0679_art_46"]}
+{"id": "T-M08", "type": "multi_hop", "question": "Si un incident NIS2 entraîne une violation de données, quelles autorités interviennent ?", "gold": ["32022L2555_art_35", "32016R0679_art_55", "32016R0679_art_58"]}

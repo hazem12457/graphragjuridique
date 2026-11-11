@@ -1,0 +1,54 @@
+{
+  "reponses": "results\\answers_utilisateur_20261110_010908.json",
+  "juge": "openai/gpt-oss-20b",
+  "resultats": [
+    {
+      "id": "B4",
+      "mode": "advanced",
+      "meme_selection": true,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.856,
+      "context_recall": 1.0
+    },
+    {
+      "id": "B4",
+      "mode": "graph_linked",
+      "meme_selection": true,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.827,
+      "context_recall": 1.0
+    },
+    {
+      "id": "C3",
+      "mode": "advanced",
+      "meme_selection": true,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.879,
+      "context_recall": 1.0
+    },
+    {
+      "id": "C3",
+      "mode": "graph_linked",
+      "meme_selection": true,
+      "faithfulness": 0.833,
+      "answer_relevancy": 0.903,
+      "context_recall": 1.0
+    },
+    {
+      "id": "C5",
+      "mode": "advanced",
+      "meme_selection": true,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.88,
+      "context_recall": 1.0
+    },
+    {
+      "id": "C5",
+      "mode": "graph_linked",
+      "meme_selection": true,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.886,
+      "context_recall": 1.0
+    }
+  ]
+}

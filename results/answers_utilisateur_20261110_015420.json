@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-10T01:58:22",
+  "modes": [
+    "advanced",
+    "graph_linked"
+  ],
+  "statut": "terminé",
+  "tokens_estimes": 32074,
+  "rows": [
+    {
+      "id": "C2",
+      "type": "C_relationnelle",
+      "question": "Quel acte du corpus modifie le règlement 2019/1020 ?",
+      "gold": [
+        "32024R2847_art_66"
+      ],
+      "reference": "Le règlement (UE) 2024/2847.",
+      "advanced": {
+        "selected": [
+          "32019R1020_art_39",
+          "32019R1020_art_38",
+          "32019R1020_art_34",
+          "32019R1020_art_43",
+          "32019R1700_art_20"
+        ],
+        "context_tokens": 2377,
+        "answer": "Les articles fournis ne permettent pas de répondre à cette question. Aucun extrait du corpus ne indique qu’un autre acte modifie le règlement (UE) 2019/1020.",
+        "unavailable": false,
+        "gold_selected": [],
+        "gold_cited": [],
+        "seconds": 34.1
+      },
+      "graph_linked": {
+        "selected": [
+          "32024R2847_art_66",
+          "32019R1020_art_39",
+          "32019R1020_art_38",
+          "32019R1020_art_40",
+          "32019R1020_art_25"
+        ],
+        "context_tokens": 2342,
+        "answer": "Le **Règlement (UE) 2024/2847** (Cyber Resilience Act) modifie le **Règlement (UE) 2019/1020** ; la modification est prévue à l’article 66 du règlement 2024/2847, qui ajoute le point « 72. Règlement (UE) 2024/2847 du Parlement européen et du Conseil » à l’annexe I du règlement (UE) 2019/1020 [1] (Règlement (UE) 2024/2847, article 66).",
+        "unavailable": false,
+        "gold_selected": [
+          "32024R2847_art_66"
+        ],
+        "gold_cited": [
+          "32024R2847_art_66"
+        ],
+        "seconds": 32.1
+      }
+    },
+    {
+      "id": "D1",
+      "type": "D_piege",
+      "question": "Que dit l'article 200 du RGPD ?",
+      "gold": [],
+      "reference": "Il n'existe pas : le RGPD compte 99 articles.",
+      "advanced": {
+        "selected": [
+          "32026R2108_art_201",
+          "32016R0679_art_1",
+          "32016R0679_art_82",
+          "32018R1046_art_196",
+          "32016R0679_art_23"
+        ],
+        "context_tokens": 2821,
+        "answer": "Les articles fournis ne permettent pas de répondre à cette question.",
+        "unavailable": false,
+        "gold_selected": [],
+        "gold_cited": [],
+        "seconds": 14.6
+      },
+      "graph_linked": {
+        "selected": [
+          "32026R2108_art_201",
+          "32016R0679_art_1",
+          "32016R0679_art_3",
+          "32016R0679_art_82",
+          "32018R1046_art_196"
+        ],
+        "context_tokens": 2445,
+        "answer": "Les articles fournis ne permettent pas de répondre à cette question.",
+        "unavailable": false,
+        "gold_selected": [],
+        "gold_cited": [],
+        "seconds": 22.8
+      }
+    },
+    {
+      "id": "D4",
+      "type": "D_piege",
+      "question": "Pourquoi l'AI Act interdit-il tous les systèmes d'IA à haut risque ?",
+      "gold": [],
+      "reference": "Fausse prémisse : ils sont encadrés, pas interdits.",
+      "advanced": {
+        "selected": [
+          "32024R1689_art_7",
+          "32024R1689_art_82",
+          "32024R1689_art_6",
+          "32024R1689_art_80",
+          "32024R1689_art_60"
+        ],
+        "context_tokens": 4990,
+        "answer": "Les articles fournis ne permettent pas de répondre à cette question.",
+        "unavailable": false,
+        "gold_selected": [],
+        "gold_cited": [],
+        "seconds": 16.3
+      },
+      "graph_linked": {
+        "selected": [
+          "32024R1689_art_7",
+          "32024R1689_art_82",
+          "32024R1689_art_6",
+          "32024R1689_art_80",
+          "32024R1689_art_5"
+        ],
+        "context_tokens": 5099,
+        "answer": "Les articles fournis ne permettent pas de répondre à cette question.",
+        "unavailable": false,
+        "gold_selected": [],
+        "gold_cited": [],
+        "seconds": 32.3
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# Le Graph RAG tourne dans le MÊME environnement conda que le RAG vectoriel (rag-juridique),
+# dont il réutilise le code (embeddings e5, génération, évaluation) :
+#   pip install -r ..\Advenced-Rag-Agents-main\Advenced-Rag-Agents-main\requirements.txt
+# puis les dépendances propres au graphe :
+neo4j
+networkx
+beautifulsoup4      # requis par collect_eurlex.py, réutilisé par scripts/collect_external_relations.py
+python-dotenv

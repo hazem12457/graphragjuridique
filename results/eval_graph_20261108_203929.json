@@ -1,0 +1,3438 @@
+{
+  "date": "2026-11-08T21:03:06",
+  "dataset": "base",
+  "k": 5,
+  "embedding_model": "intfloat/multilingual-e5-base",
+  "llm": "openai/gpt-oss-120b",
+  "reranker": "BAAI/bge-reranker-v2-m3",
+  "graph": {
+    "n_seeds": 10,
+    "max_neighbours": 5,
+    "max_relation_articles": 5
+  },
+  "results": [
+    {
+      "mode": "advanced",
+      "k": 5,
+      "rows": [
+        {
+          "id": "F01",
+          "type": "factuelle",
+          "question": "Dans quel délai le responsable du traitement doit-il notifier une violation de données personnelles à l'autorité de contrôle selon le RGPD ?",
+          "gold": [
+            "32016R0679_art_33"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_33",
+            "32016L0680_art_30",
+            "32016R0679_art_36",
+            "32016R0679_art_56",
+            "32018R1725_art_34"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 42.73,
+          "n_articles": 5,
+          "context_chars": 6157,
+          "context_tokens_approx": 1539
+        },
+        {
+          "id": "F02",
+          "type": "factuelle",
+          "question": "Quel est le montant maximal des amendes administratives prévues par le RGPD ?",
+          "gold": [
+            "32016R0679_art_83"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_83",
+            "32019R1238_art_67",
+            "32022L2555_art_34",
+            "32025R0327_art_64",
+            "32018R1725_art_66"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 16.49,
+          "n_articles": 5,
+          "context_chars": 6255,
+          "context_tokens_approx": 1564
+        },
+        {
+          "id": "F03",
+          "type": "factuelle",
+          "question": "Dans quels cas une personne peut-elle obtenir l'effacement de ses données personnelles ?",
+          "gold": [
+            "32016R0679_art_17"
+          ],
+          "retrieved_articles": [
+            "32018R1725_art_19",
+            "32016R0679_art_17",
+            "32017R1939_art_61",
+            "32016L0680_art_16",
+            "32016R0794_art_31"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.5,
+          "retrieval_seconds": 12.99,
+          "n_articles": 5,
+          "context_chars": 6507,
+          "context_tokens_approx": 1627
+        },
+        {
+          "id": "F04",
+          "type": "factuelle",
+          "question": "Quelles sont les bases légales qui rendent licite un traitement de données à caractère personnel ?",
+          "gold": [
+            "32016R0679_art_6"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_6",
+            "32018R1725_art_72",
+            "32018R1725_art_5",
+            "32016L0680_art_8",
+            "32016R0679_art_5"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 11.19,
+          "n_articles": 5,
+          "context_chars": 5275,
+          "context_tokens_approx": 1319
+        },
+        {
+          "id": "F05",
+          "type": "factuelle",
+          "question": "Quand un organisme est-il obligé de désigner un délégué à la protection des données ?",
+          "gold": [
+            "32016R0679_art_37"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_37",
+            "32018R1725_art_43",
+            "32017R1939_art_77",
+            "32016L0680_art_32",
+            "32016R0794_art_41"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 10.68,
+          "n_articles": 5,
+          "context_chars": 6611,
+          "context_tokens_approx": 1653
+        },
+        {
+          "id": "F06",
+          "type": "factuelle",
+          "question": "Sous quel format les données doivent-elles être fournies au titre du droit à la portabilité ?",
+          "gold": [
+            "32016R0679_art_20"
+          ],
+          "retrieved_articles": [
+            "32018R1725_art_22",
+            "32016R0679_art_20",
+            "32025R0327_art_7",
+            "32016R0679_art_13",
+            "32016R0679_art_14"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.5,
+          "retrieval_seconds": 16.47,
+          "n_articles": 5,
+          "context_chars": 6878,
+          "context_tokens_approx": 1720
+        },
+        {
+          "id": "F07",
+          "type": "factuelle",
+          "question": "Quelles pratiques en matière d'intelligence artificielle sont interdites par l'AI Act ?",
+          "gold": [
+            "32024R1689_art_5"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_5",
+            "32024R1689_art_10",
+            "32024R1689_art_108",
+            "32024R1689_art_103",
+            "32024R1689_art_104"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 16.84,
+          "n_articles": 5,
+          "context_chars": 5229,
+          "context_tokens_approx": 1307
+        },
+        {
+          "id": "F08",
+          "type": "factuelle",
+          "question": "Quelles amendes sont encourues en cas de non-respect des pratiques d'IA interdites ?",
+          "gold": [
+            "32024R1689_art_99"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_99",
+            "32024R1689_art_100",
+            "32024R1689_art_5",
+            "32024R1689_art_101",
+            "32024R1689_art_79"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 19.96,
+          "n_articles": 5,
+          "context_chars": 7297,
+          "context_tokens_approx": 1824
+        },
+        {
+          "id": "F09",
+          "type": "factuelle",
+          "question": "À partir de quelle date l'AI Act est-il applicable, et quelles dispositions s'appliquent plus tôt ?",
+          "gold": [
+            "32024R1689_art_113"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_113",
+            "32024R1689_art_111",
+            "32024R1689_art_56",
+            "32024R1689_art_5",
+            "32025L2205_art_29"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 15.64,
+          "n_articles": 5,
+          "context_chars": 5910,
+          "context_tokens_approx": 1478
+        },
+        {
+          "id": "F10",
+          "type": "factuelle",
+          "question": "À partir de combien d'utilisateurs une plateforme est-elle considérée comme une très grande plateforme en ligne au sens du DSA ?",
+          "gold": [
+            "32022R2065_art_33"
+          ],
+          "retrieved_articles": [
+            "32022R2065_art_33",
+            "32022R2065_art_42",
+            "32022R2065_art_19",
+            "32022R2065_art_29",
+            "32022R2065_art_40"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 19.41,
+          "n_articles": 5,
+          "context_chars": 6568,
+          "context_tokens_approx": 1642
+        },
+        {
+          "id": "F11",
+          "type": "factuelle",
+          "question": "Quels seuils font présumer qu'une entreprise est un contrôleur d'accès selon le DMA ?",
+          "gold": [
+            "32022R1925_art_3"
+          ],
+          "retrieved_articles": [
+            "32022R1925_art_3",
+            "32022R1925_art_13",
+            "32022R1925_art_5",
+            "32022R1925_art_6",
+            "32022R1925_art_14"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 17.81,
+          "n_articles": 5,
+          "context_chars": 6146,
+          "context_tokens_approx": 1536
+        },
+        {
+          "id": "F12",
+          "type": "factuelle",
+          "question": "Quelles sont les étapes et délais de notification d'un incident important prévus par NIS2 ?",
+          "gold": [
+            "32022L2555_art_23"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_23",
+            "32022L2555_art_30",
+            "32022L2557_art_15",
+            "32022L2555_art_32",
+            "32026R0255_art_14"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 19.24,
+          "n_articles": 5,
+          "context_chars": 4903,
+          "context_tokens_approx": 1226
+        },
+        {
+          "id": "F13",
+          "type": "factuelle",
+          "question": "Dans quel délai un fabricant doit-il signaler une vulnérabilité activement exploitée dans un produit comportant des éléments numériques ?",
+          "gold": [
+            "32024R2847_art_14"
+          ],
+          "retrieved_articles": [
+            "32024R2847_art_14",
+            "32024R2847_art_15",
+            "32024R2847_art_13",
+            "32024R2847_art_19",
+            "32024R2847_art_16"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 14.99,
+          "n_articles": 5,
+          "context_chars": 6955,
+          "context_tokens_approx": 1739
+        },
+        {
+          "id": "F14",
+          "type": "factuelle",
+          "question": "Quelles obligations de transparence s'appliquent aux systèmes d'IA qui génèrent des hypertrucages (deepfakes) ?",
+          "gold": [
+            "32024R1689_art_50"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_50",
+            "32024R1689_art_1",
+            "32024R1689_art_13",
+            "32024R1689_art_26",
+            "32026R1744_art_1"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 19.19,
+          "n_articles": 5,
+          "context_chars": 5763,
+          "context_tokens_approx": 1441
+        },
+        {
+          "id": "R01",
+          "type": "relationnelle",
+          "question": "Quelle directive le RGPD abroge-t-il et à partir de quand ?",
+          "gold": [
+            "32016R0679_art_94"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_94",
+            "32016R0679_art_99",
+            "32021L0514_art_1",
+            "32023R2842_art_4",
+            "32025L2205_art_30"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 14.35,
+          "n_articles": 5,
+          "context_chars": 3876,
+          "context_tokens_approx": 969
+        },
+        {
+          "id": "R02",
+          "type": "relationnelle",
+          "question": "Comment le DSA modifie-t-il la directive sur le commerce électronique 2000/31/CE ?",
+          "gold": [
+            "32022R2065_art_89"
+          ],
+          "retrieved_articles": [
+            "32000L0031_art_24",
+            "32000L0031_art_21",
+            "32022R2065_art_90",
+            "32000L0031_art_18",
+            "32000L0031_art_8"
+          ],
+          "recall": 0.0,
+          "hit": 0.0,
+          "rr": 0.0,
+          "retrieval_seconds": 16.86,
+          "n_articles": 5,
+          "context_chars": 5071,
+          "context_tokens_approx": 1268
+        },
+        {
+          "id": "R03",
+          "type": "relationnelle",
+          "question": "Quelle directive est abrogée par NIS2 ?",
+          "gold": [
+            "32022L2555_art_44"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_44",
+            "32022L2555_art_43",
+            "32022L2555_art_42",
+            "32022L2555_art_2",
+            "32022L2555_art_33"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 8.63,
+          "n_articles": 5,
+          "context_chars": 2253,
+          "context_tokens_approx": 563
+        },
+        {
+          "id": "R04",
+          "type": "relationnelle",
+          "question": "Sur quels articles du RGPD s'appuie l'obligation de réaliser une analyse d'impact, et quand est-elle requise ?",
+          "gold": [
+            "32016R0679_art_35"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_35",
+            "32016R0679_art_57",
+            "32018R1725_art_39",
+            "32016R0679_art_64",
+            "32016L0680_art_27"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 12.26,
+          "n_articles": 5,
+          "context_chars": 6792,
+          "context_tokens_approx": 1698
+        },
+        {
+          "id": "M01",
+          "type": "multi_hop",
+          "question": "Comparez les délais de notification d'incident du RGPD et de NIS2.",
+          "gold": [
+            "32016R0679_art_33",
+            "32022L2555_art_23"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_23",
+            "32016R0679_art_33",
+            "32022L2555_art_30",
+            "32026R0255_art_14",
+            "32022L2557_art_15"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 12.38,
+          "n_articles": 5,
+          "context_chars": 5222,
+          "context_tokens_approx": 1306
+        },
+        {
+          "id": "M02",
+          "type": "multi_hop",
+          "question": "Quels sont les plafonds d'amende du RGPD, de l'AI Act et du DMA ?",
+          "gold": [
+            "32016R0679_art_83",
+            "32024R1689_art_99",
+            "32022R1925_art_30"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_100",
+            "32024R1689_art_99",
+            "32016R0679_art_83",
+            "32022R1925_art_30",
+            "32025R0327_art_64"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.5,
+          "retrieval_seconds": 11.53,
+          "n_articles": 5,
+          "context_chars": 5815,
+          "context_tokens_approx": 1454
+        },
+        {
+          "id": "M03",
+          "type": "multi_hop",
+          "question": "Quelles obligations pèsent sur les très grandes plateformes en ligne : à partir de quand sont-elles désignées et quels risques doivent-elles évaluer ?",
+          "gold": [
+            "32022R2065_art_33",
+            "32022R2065_art_34"
+          ],
+          "retrieved_articles": [
+            "32022R2065_art_33",
+            "32022R2065_art_34",
+            "32022R2065_art_37",
+            "32022R2065_art_42",
+            "32022R2065_art_65"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 13.85,
+          "n_articles": 5,
+          "context_chars": 5306,
+          "context_tokens_approx": 1326
+        },
+        {
+          "id": "M04",
+          "type": "multi_hop",
+          "question": "Comparez les obligations de signalement d'incidents de NIS2 et du Cyber Resilience Act.",
+          "gold": [
+            "32022L2555_art_23",
+            "32024R2847_art_14"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_23",
+            "32022L2555_art_4",
+            "32022L2555_art_11",
+            "32022L2555_art_6",
+            "32022L2555_art_9"
+          ],
+          "recall": 0.5,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 12.37,
+          "n_articles": 5,
+          "context_chars": 6339,
+          "context_tokens_approx": 1585
+        },
+        {
+          "id": "M05",
+          "type": "multi_hop",
+          "question": "Quelles amendes les États membres doivent-ils prévoir pour les entités essentielles et importantes sous NIS2, et comment se comparent-elles aux amendes du RGPD ?",
+          "gold": [
+            "32022L2555_art_34",
+            "32016R0679_art_83"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_34",
+            "32022L2555_art_3",
+            "32022L2555_art_32",
+            "32022L2555_art_20",
+            "32022L2555_art_30"
+          ],
+          "recall": 0.5,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 12.48,
+          "n_articles": 5,
+          "context_chars": 6247,
+          "context_tokens_approx": 1562
+        },
+        {
+          "id": "M06",
+          "type": "multi_hop",
+          "question": "Quel droit d'accès aux données des produits connectés le Data Act donne-t-il à l'utilisateur, et peut-il les partager avec un tiers ?",
+          "gold": [
+            "32023R2854_art_3",
+            "32023R2854_art_4",
+            "32023R2854_art_5"
+          ],
+          "retrieved_articles": [
+            "32023R2854_art_5",
+            "32023R2854_art_4",
+            "32023R2854_art_6",
+            "32023R2854_art_3",
+            "32023R2854_art_1"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 13.11,
+          "n_articles": 5,
+          "context_chars": 6812,
+          "context_tokens_approx": 1703
+        }
+      ],
+      "summary": {
+        "global": {
+          "n": 24,
+          "recall@k": 0.917,
+          "hit@k": 0.958,
+          "mrr": 0.896,
+          "retrieval_seconds": 15.894,
+          "n_articles": 5.0,
+          "context_tokens_approx": 1460.375
+        },
+        "factuelle": {
+          "n": 14,
+          "recall@k": 1.0,
+          "hit@k": 1.0,
+          "mrr": 0.929,
+          "retrieval_seconds": 18.116,
+          "n_articles": 5.0,
+          "context_tokens_approx": 1543.929
+        },
+        "multi_hop": {
+          "n": 6,
+          "recall@k": 0.833,
+          "hit@k": 1.0,
+          "mrr": 0.917,
+          "retrieval_seconds": 12.62,
+          "n_articles": 5.0,
+          "context_tokens_approx": 1489.333
+        },
+        "relationnelle": {
+          "n": 4,
+          "recall@k": 0.75,
+          "hit@k": 0.75,
+          "mrr": 0.75,
+          "retrieval_seconds": 13.025,
+          "n_articles": 5.0,
+          "context_tokens_approx": 1124.5
+        }
+      }
+    },
+    {
+      "mode": "advanced_norerank",
+      "k": 5,
+      "rows": [
+        {
+          "id": "F01",
+          "type": "factuelle",
+          "question": "Dans quel délai le responsable du traitement doit-il notifier une violation de données personnelles à l'autorité de contrôle selon le RGPD ?",
+          "gold": [
+            "32016R0679_art_33"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_33",
+            "32016R0679_art_36",
+            "32016L0680_art_30",
+            "32016R0679_art_58",
+            "32018R1725_art_92"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5,
+          "context_chars": 6132,
+          "context_tokens_approx": 1533
+        },
+        {
+          "id": "F02",
+          "type": "factuelle",
+          "question": "Quel est le montant maximal des amendes administratives prévues par le RGPD ?",
+          "gold": [
+            "32016R0679_art_83"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_83",
+            "32019R1238_art_67",
+            "32025R0327_art_64",
+            "32018R1725_art_66",
+            "32016R0679_art_58"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5,
+          "context_chars": 6195,
+          "context_tokens_approx": 1549
+        },
+        {
+          "id": "F03",
+          "type": "factuelle",
+          "question": "Dans quels cas une personne peut-elle obtenir l'effacement de ses données personnelles ?",
+          "gold": [
+            "32016R0679_art_17"
+          ],
+          "retrieved_articles": [
+            "32018R1725_art_19",
+            "32016R0679_art_17",
+            "32018R1725_art_82",
+            "32019R0818_art_48",
+            "32016L0680_art_16"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.5,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5,
+          "context_chars": 5939,
+          "context_tokens_approx": 1485
+        },
+        {
+          "id": "F04",
+          "type": "factuelle",
+          "question": "Quelles sont les bases légales qui rendent licite un traitement de données à caractère personnel ?",
+          "gold": [
+            "32016R0679_art_6"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_6",
+            "32016R0679_art_14",
+            "32016R0679_art_13",
+            "32016R0679_art_5",
+            "32016R0679_art_9"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5,
+          "context_chars": 6242,
+          "context_tokens_approx": 1560
+        },
+        {
+          "id": "F05",
+          "type": "factuelle",
+          "question": "Quand un organisme est-il obligé de désigner un délégué à la protection des données ?",
+          "gold": [
+            "32016R0679_art_37"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_37",
+            "32018R1725_art_43",
+            "32016R0794_art_41",
+            "32016R0679_art_38",
+            "32022R0991_art_1"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5,
+          "context_chars": 6336,
+          "context_tokens_approx": 1584
+        },
+        {
+          "id": "F06",
+          "type": "factuelle",
+          "question": "Sous quel format les données doivent-elles être fournies au titre du droit à la portabilité ?",
+          "gold": [
+            "32016R0679_art_20"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_20",
+            "32018R1725_art_22",
+            "32016R0679_art_5",
+            "32016R0679_art_13",
+            "32016R0679_art_40"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5,
+          "context_chars": 5433,
+          "context_tokens_approx": 1358
+        },
+        {
+          "id": "F07",
+          "type": "factuelle",
+          "question": "Quelles pratiques en matière d'intelligence artificielle sont interdites par l'AI Act ?",
+          "gold": [
+            "32024R1689_art_5"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_5",
+            "32024R1689_art_10",
+            "32024R1689_art_106",
+            "32024R1689_art_103",
+            "32024R1689_art_107"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5,
+          "context_chars": 3343,
+          "context_tokens_approx": 836
+        },
+        {
+          "id": "F08",
+          "type": "factuelle",
+          "question": "Quelles amendes sont encourues en cas de non-respect des pratiques d'IA interdites ?",
+          "gold": [
+            "32024R1689_art_99"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_101",
+            "32024R1689_art_99",
+            "32016R0679_art_83",
+            "32024R1689_art_100",
+            "32024R1689_art_5"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.5,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5,
+          "context_chars": 7422,
+          "context_tokens_approx": 1856
+        },
+        {
+          "id": "F09",
+          "type": "factuelle",
+          "question": "À partir de quelle date l'AI Act est-il applicable, et quelles dispositions s'appliquent plus tôt ?",
+          "gold": [
+            "32024R1689_art_113"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_111",
+            "32024R1689_art_113",
+            "32024R1689_art_27",
+            "32024R1689_art_10",
+            "32024R1689_art_5"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.5,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5,
+          "context_chars": 4574,
+          "context_tokens_approx": 1144
+        },
+        {
+          "id": "F10",
+          "type": "factuelle",
+          "question": "À partir de combien d'utilisateurs une plateforme est-elle considérée comme une très grande plateforme en ligne au sens du DSA ?",
+          "gold": [
+            "32022R2065_art_33"
+          ],
+          "retrieved_articles": [
+            "32022R2065_art_41",
+            "32022R2065_art_33",
+            "32022R2065_art_69",
+            "32022R2065_art_19",
+            "32022R2065_art_23"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.5,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5,
+          "context_chars": 7182,
+          "context_tokens_approx": 1796
+        },
+        {
+          "id": "F11",
+          "type": "factuelle",
+          "question": "Quels seuils font présumer qu'une entreprise est un contrôleur d'accès selon le DMA ?",
+          "gold": [
+            "32022R1925_art_3"
+          ],
+          "retrieved_articles": [
+            "32022R1925_art_13",
+            "32022R1925_art_3",
+            "32022R1925_art_5",
+            "32022R1925_art_12",
+            "32022R1925_art_6"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.5,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5,
+          "context_chars": 5495,
+          "context_tokens_approx": 1374
+        },
+        {
+          "id": "F12",
+          "type": "factuelle",
+          "question": "Quelles sont les étapes et délais de notification d'un incident important prévus par NIS2 ?",
+          "gold": [
+            "32022L2555_art_23"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_23",
+            "32024R2847_art_14",
+            "32026R0255_art_14",
+            "32022L2555_art_30",
+            "32024R1689_art_73"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5,
+          "context_chars": 6197,
+          "context_tokens_approx": 1549
+        },
+        {
+          "id": "F13",
+          "type": "factuelle",
+          "question": "Dans quel délai un fabricant doit-il signaler une vulnérabilité activement exploitée dans un produit comportant des éléments numériques ?",
+          "gold": [
+            "32024R2847_art_14"
+          ],
+          "retrieved_articles": [
+            "32024R2847_art_14",
+            "32024R2847_art_15",
+            "32024R2847_art_13",
+            "32024R2847_art_19",
+            "32024R2847_art_3"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5,
+          "context_chars": 7032,
+          "context_tokens_approx": 1758
+        },
+        {
+          "id": "F14",
+          "type": "factuelle",
+          "question": "Quelles obligations de transparence s'appliquent aux systèmes d'IA qui génèrent des hypertrucages (deepfakes) ?",
+          "gold": [
+            "32024R1689_art_50"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_50",
+            "32024R1689_art_13",
+            "32024R1689_art_55",
+            "32024R1689_art_16",
+            "32024R1689_art_26"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5,
+          "context_chars": 4716,
+          "context_tokens_approx": 1179
+        },
+        {
+          "id": "R01",
+          "type": "relationnelle",
+          "question": "Quelle directive le RGPD abroge-t-il et à partir de quand ?",
+          "gold": [
+            "32016R0679_art_94"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_94",
+            "32016R0679_art_99",
+            "32016R0679_art_58",
+            "32016R0679_art_88",
+            "32016R0679_art_22"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5,
+          "context_chars": 2284,
+          "context_tokens_approx": 571
+        },
+        {
+          "id": "R02",
+          "type": "relationnelle",
+          "question": "Comment le DSA modifie-t-il la directive sur le commerce électronique 2000/31/CE ?",
+          "gold": [
+            "32022R2065_art_89"
+          ],
+          "retrieved_articles": [
+            "32000L0031_art_13",
+            "32000L0031_art_19",
+            "32000L0031_art_23",
+            "32000L0031_art_5",
+            "32000L0031_art_24"
+          ],
+          "recall": 0.0,
+          "hit": 0.0,
+          "rr": 0.0,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5,
+          "context_chars": 1630,
+          "context_tokens_approx": 408
+        },
+        {
+          "id": "R03",
+          "type": "relationnelle",
+          "question": "Quelle directive est abrogée par NIS2 ?",
+          "gold": [
+            "32022L2555_art_44"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_44",
+            "32022L2555_art_32",
+            "32022L2555_art_27",
+            "32022L2555_art_2",
+            "32022L2555_art_33"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5,
+          "context_chars": 2307,
+          "context_tokens_approx": 577
+        },
+        {
+          "id": "R04",
+          "type": "relationnelle",
+          "question": "Sur quels articles du RGPD s'appuie l'obligation de réaliser une analyse d'impact, et quand est-elle requise ?",
+          "gold": [
+            "32016R0679_art_35"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_35",
+            "32018R1725_art_39",
+            "32018R1725_art_89",
+            "32024R1689_art_27",
+            "32016L0680_art_28"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5,
+          "context_chars": 6592,
+          "context_tokens_approx": 1648
+        },
+        {
+          "id": "M01",
+          "type": "multi_hop",
+          "question": "Comparez les délais de notification d'incident du RGPD et de NIS2.",
+          "gold": [
+            "32016R0679_art_33",
+            "32022L2555_art_23"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_23",
+            "32024R2847_art_14",
+            "32026R0255_art_14",
+            "32024R1689_art_73",
+            "32022L2557_art_15"
+          ],
+          "recall": 0.5,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5,
+          "context_chars": 6617,
+          "context_tokens_approx": 1654
+        },
+        {
+          "id": "M02",
+          "type": "multi_hop",
+          "question": "Quels sont les plafonds d'amende du RGPD, de l'AI Act et du DMA ?",
+          "gold": [
+            "32016R0679_art_83",
+            "32024R1689_art_99",
+            "32022R1925_art_30"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_83",
+            "32024R1689_art_99",
+            "32022R1925_art_30",
+            "32024R1689_art_100",
+            "32025R0327_art_64"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5,
+          "context_chars": 4702,
+          "context_tokens_approx": 1176
+        },
+        {
+          "id": "M03",
+          "type": "multi_hop",
+          "question": "Quelles obligations pèsent sur les très grandes plateformes en ligne : à partir de quand sont-elles désignées et quels risques doivent-elles évaluer ?",
+          "gold": [
+            "32022R2065_art_33",
+            "32022R2065_art_34"
+          ],
+          "retrieved_articles": [
+            "32022R2065_art_34",
+            "32022R2065_art_33",
+            "32022R2065_art_41",
+            "32022R2065_art_36",
+            "32022R2065_art_65"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5,
+          "context_chars": 6028,
+          "context_tokens_approx": 1507
+        },
+        {
+          "id": "M04",
+          "type": "multi_hop",
+          "question": "Comparez les obligations de signalement d'incidents de NIS2 et du Cyber Resilience Act.",
+          "gold": [
+            "32022L2555_art_23",
+            "32024R2847_art_14"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_23",
+            "32024R2847_art_14",
+            "32019R0881_art_7",
+            "32022R2554_art_1",
+            "32022R2554_art_33"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5,
+          "context_chars": 7292,
+          "context_tokens_approx": 1823
+        },
+        {
+          "id": "M05",
+          "type": "multi_hop",
+          "question": "Quelles amendes les États membres doivent-ils prévoir pour les entités essentielles et importantes sous NIS2, et comment se comparent-elles aux amendes du RGPD ?",
+          "gold": [
+            "32022L2555_art_34",
+            "32016R0679_art_83"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_34",
+            "32016R0679_art_83",
+            "32024R2847_art_64",
+            "32022L2555_art_32",
+            "32019R1238_art_67"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5,
+          "context_chars": 7024,
+          "context_tokens_approx": 1756
+        },
+        {
+          "id": "M06",
+          "type": "multi_hop",
+          "question": "Quel droit d'accès aux données des produits connectés le Data Act donne-t-il à l'utilisateur, et peut-il les partager avec un tiers ?",
+          "gold": [
+            "32023R2854_art_3",
+            "32023R2854_art_4",
+            "32023R2854_art_5"
+          ],
+          "retrieved_articles": [
+            "32023R2854_art_5",
+            "32023R2854_art_6",
+            "32023R2854_art_4",
+            "32023R2854_art_3",
+            "32023R2854_art_2"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5,
+          "context_chars": 6378,
+          "context_tokens_approx": 1594
+        }
+      ],
+      "summary": {
+        "global": {
+          "n": 24,
+          "recall@k": 0.938,
+          "hit@k": 0.958,
+          "mrr": 0.854,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5.0,
+          "context_tokens_approx": 1386.458
+        },
+        "factuelle": {
+          "n": 14,
+          "recall@k": 1.0,
+          "hit@k": 1.0,
+          "mrr": 0.821,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5.0,
+          "context_tokens_approx": 1468.643
+        },
+        "multi_hop": {
+          "n": 6,
+          "recall@k": 0.917,
+          "hit@k": 1.0,
+          "mrr": 1.0,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5.0,
+          "context_tokens_approx": 1585.0
+        },
+        "relationnelle": {
+          "n": 4,
+          "recall@k": 0.75,
+          "hit@k": 0.75,
+          "mrr": 0.75,
+          "retrieval_seconds": 0.0,
+          "n_articles": 5.0,
+          "context_tokens_approx": 801.0
+        }
+      }
+    },
+    {
+      "mode": "graph",
+      "k": 5,
+      "rows": [
+        {
+          "id": "F01",
+          "type": "factuelle",
+          "question": "Dans quel délai le responsable du traitement doit-il notifier une violation de données personnelles à l'autorité de contrôle selon le RGPD ?",
+          "gold": [
+            "32016R0679_art_33"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_33",
+            "32016L0680_art_30",
+            "32016R0679_art_36",
+            "32016R0679_art_56",
+            "32018R1725_art_34"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 38.59,
+          "n_articles": 5,
+          "context_chars": 6483,
+          "context_tokens_approx": 1621,
+          "graph_added": [],
+          "via": {
+            "32016R0679_art_33": [
+              "Règlement (UE) 2016/679 (RGPD), article 34 renvoie à Règlement (UE) 2016/679 (RGPD), article 33",
+              "Règlement (UE) 2016/679 (RGPD), article 33 est voisin de Règlement (UE) 2016/679 (RGPD), article 34 dans l'acte"
+            ],
+            "32016R0679_art_36": [
+              "Règlement (UE) 2016/679 (RGPD), article 58 renvoie à Règlement (UE) 2016/679 (RGPD), article 36",
+              "Règlement (UE) 2016/679 (RGPD), article 36 renvoie à Règlement (UE) 2016/679 (RGPD), article 58"
+            ]
+          }
+        },
+        {
+          "id": "F02",
+          "type": "factuelle",
+          "question": "Quel est le montant maximal des amendes administratives prévues par le RGPD ?",
+          "gold": [
+            "32016R0679_art_83"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_83",
+            "32019R1238_art_67",
+            "32022L2555_art_34",
+            "32025R0327_art_64",
+            "32018R1725_art_66"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 45.31,
+          "n_articles": 5,
+          "context_chars": 6593,
+          "context_tokens_approx": 1648,
+          "graph_added": [],
+          "via": {
+            "32016R0679_art_83": [
+              "Règlement (UE) 2016/679 (RGPD), article 58 renvoie à Règlement (UE) 2016/679 (RGPD), article 83",
+              "Règlement (UE) 2023/2854 (Data Act), article 40 renvoie à Règlement (UE) 2016/679 (RGPD), article 83",
+              "Règlement (UE) 2016/679 (RGPD), article 83 renvoie à Règlement (UE) 2016/679 (RGPD), article 58"
+            ],
+            "32018R1725_art_66": [
+              "Règlement (UE) 2023/2854 (Data Act), article 40 renvoie à Règlement (UE) 2018/1725 (EUDPR), article 66"
+            ]
+          }
+        },
+        {
+          "id": "F03",
+          "type": "factuelle",
+          "question": "Dans quels cas une personne peut-elle obtenir l'effacement de ses données personnelles ?",
+          "gold": [
+            "32016R0679_art_17"
+          ],
+          "retrieved_articles": [
+            "32018R1725_art_19",
+            "32016R0679_art_17",
+            "32017R1939_art_61",
+            "32016L0680_art_16",
+            "32016R0794_art_31"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.5,
+          "retrieval_seconds": 61.41,
+          "n_articles": 5,
+          "context_chars": 6621,
+          "context_tokens_approx": 1655,
+          "graph_added": [],
+          "via": {
+            "32016R0679_art_17": [
+              "Règlement (UE) 2016/679 (RGPD), article 19 renvoie à Règlement (UE) 2016/679 (RGPD), article 17"
+            ]
+          }
+        },
+        {
+          "id": "F04",
+          "type": "factuelle",
+          "question": "Quelles sont les bases légales qui rendent licite un traitement de données à caractère personnel ?",
+          "gold": [
+            "32016R0679_art_6"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_6",
+            "32018R1725_art_72",
+            "32018R1725_art_5",
+            "32016L0680_art_8",
+            "32016R0679_art_5"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 45.17,
+          "n_articles": 5,
+          "context_chars": 5598,
+          "context_tokens_approx": 1400,
+          "graph_added": [],
+          "via": {
+            "32016R0679_art_6": [
+              "Règlement (UE) 2016/679 (RGPD), article 14 renvoie à Règlement (UE) 2016/679 (RGPD), article 6",
+              "Règlement (UE) 2016/679 (RGPD), article 13 renvoie à Règlement (UE) 2016/679 (RGPD), article 6",
+              "Règlement (UE) 2016/679 (RGPD), article 17 renvoie à Règlement (UE) 2016/679 (RGPD), article 6",
+              "Règlement (UE) 2016/679 (RGPD), article 6 renvoie à Règlement (UE) 2016/679 (RGPD), article 9",
+              "Règlement (UE) 2016/679 (RGPD), article 6 renvoie à Règlement (UE) 2016/679 (RGPD), article 23",
+              "Règlement (UE) 2016/679 (RGPD), article 6 est voisin de Règlement (UE) 2016/679 (RGPD), article 5 dans l'acte"
+            ],
+            "32016R0679_art_5": [
+              "Règlement (UE) 2016/679 (RGPD), article 23 renvoie à Règlement (UE) 2016/679 (RGPD), article 5",
+              "Règlement (UE) 2016/679 (RGPD), article 5 est voisin de Règlement (UE) 2016/679 (RGPD), article 6 dans l'acte"
+            ]
+          }
+        },
+        {
+          "id": "F05",
+          "type": "factuelle",
+          "question": "Quand un organisme est-il obligé de désigner un délégué à la protection des données ?",
+          "gold": [
+            "32016R0679_art_37"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_37",
+            "32018R1725_art_43",
+            "32017R1939_art_77",
+            "32016L0680_art_32",
+            "32016R0794_art_41"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 36.17,
+          "n_articles": 5,
+          "context_chars": 6843,
+          "context_tokens_approx": 1711,
+          "graph_added": [],
+          "via": {
+            "32016R0679_art_37": [
+              "Règlement (UE) 2016/679 (RGPD), article 37 renvoie à Règlement (UE) 2016/679 (RGPD), article 39",
+              "Règlement (UE) 2016/679 (RGPD), article 37 est voisin de Règlement (UE) 2016/679 (RGPD), article 38 dans l'acte"
+            ],
+            "32018R1725_art_43": [
+              "Règlement (UE) 2018/1725 (EUDPR), article 43 renvoie à Règlement (UE) 2018/1725 (EUDPR), article 45",
+              "Règlement (UE) 2018/1725 (EUDPR), article 43 est voisin de Règlement (UE) 2018/1725 (EUDPR), article 44 dans l'acte"
+            ]
+          }
+        },
+        {
+          "id": "F06",
+          "type": "factuelle",
+          "question": "Sous quel format les données doivent-elles être fournies au titre du droit à la portabilité ?",
+          "gold": [
+            "32016R0679_art_20"
+          ],
+          "retrieved_articles": [
+            "32018R1725_art_22",
+            "32016R0679_art_20",
+            "32025R0327_art_7",
+            "32016R0679_art_13",
+            "32016R0679_art_14"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.5,
+          "retrieval_seconds": 52.75,
+          "n_articles": 5,
+          "context_chars": 6878,
+          "context_tokens_approx": 1720,
+          "graph_added": [],
+          "via": {
+            "32016R0679_art_13": [
+              "Règlement (UE) 2016/679 (RGPD), article 13 est voisin de Règlement (UE) 2016/679 (RGPD), article 14 dans l'acte"
+            ],
+            "32016R0679_art_14": [
+              "Règlement (UE) 2016/679 (RGPD), article 14 est voisin de Règlement (UE) 2016/679 (RGPD), article 13 dans l'acte"
+            ]
+          }
+        },
+        {
+          "id": "F07",
+          "type": "factuelle",
+          "question": "Quelles pratiques en matière d'intelligence artificielle sont interdites par l'AI Act ?",
+          "gold": [
+            "32024R1689_art_5"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_5",
+            "32024R1689_art_10",
+            "32024R1689_art_112",
+            "32024R1689_art_2",
+            "32024R1689_art_57"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 34.2,
+          "n_articles": 5,
+          "context_chars": 6457,
+          "context_tokens_approx": 1614,
+          "graph_added": [
+            "32024R1689_art_112",
+            "32024R1689_art_2",
+            "32024R1689_art_57"
+          ],
+          "via": {
+            "32024R1689_art_112": [
+              "Règlement (UE) 2024/1689 (AI Act), article 112 renvoie à Règlement (UE) 2024/1689 (AI Act), article 5"
+            ],
+            "32024R1689_art_2": [
+              "Règlement (UE) 2024/1689 (AI Act), article 2 renvoie à Règlement (UE) 2024/1689 (AI Act), article 5",
+              "Règlement (UE) 2024/1689 (AI Act), article 2 renvoie à Règlement (UE) 2024/1689 (AI Act), article 10",
+              "Règlement (UE) 2024/1689 (AI Act), article 2 renvoie à Règlement (UE) 2024/1689 (AI Act), article 59"
+            ],
+            "32024R1689_art_57": [
+              "Règlement (UE) 2024/1689 (AI Act), article 108 renvoie à Règlement (UE) 2024/1689 (AI Act), article 57"
+            ]
+          }
+        },
+        {
+          "id": "F08",
+          "type": "factuelle",
+          "question": "Quelles amendes sont encourues en cas de non-respect des pratiques d'IA interdites ?",
+          "gold": [
+            "32024R1689_art_99"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_99",
+            "32024R1689_art_100",
+            "32024R1689_art_5",
+            "32024R1689_art_81",
+            "32024R1689_art_101"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 38.03,
+          "n_articles": 5,
+          "context_chars": 7799,
+          "context_tokens_approx": 1950,
+          "graph_added": [
+            "32024R1689_art_81"
+          ],
+          "via": {
+            "32024R1689_art_99": [
+              "Règlement (UE) 2024/1689 (AI Act), article 80 renvoie à Règlement (UE) 2024/1689 (AI Act), article 99",
+              "Règlement (UE) 2024/1689 (AI Act), article 99 renvoie à Règlement (UE) 2024/1689 (AI Act), article 5",
+              "Règlement (UE) 2024/1689 (AI Act), article 99 renvoie à Règlement (UE) 2024/1689 (AI Act), article 50",
+              "Règlement (UE) 2024/1689 (AI Act), article 99 est voisin de Règlement (UE) 2024/1689 (AI Act), article 100 dans l'acte"
+            ],
+            "32024R1689_art_100": [
+              "Règlement (UE) 2024/1689 (AI Act), article 100 renvoie à Règlement (UE) 2024/1689 (AI Act), article 5",
+              "Règlement (UE) 2024/1689 (AI Act), article 100 est voisin de Règlement (UE) 2024/1689 (AI Act), article 101 dans l'acte",
+              "Règlement (UE) 2024/1689 (AI Act), article 100 est voisin de Règlement (UE) 2024/1689 (AI Act), article 99 dans l'acte"
+            ],
+            "32024R1689_art_5": [
+              "Règlement (UE) 2024/1689 (AI Act), article 99 renvoie à Règlement (UE) 2024/1689 (AI Act), article 5",
+              "Règlement (UE) 2024/1689 (AI Act), article 100 renvoie à Règlement (UE) 2024/1689 (AI Act), article 5"
+            ],
+            "32024R1689_art_81": [
+              "Règlement (UE) 2024/1689 (AI Act), article 81 renvoie à Règlement (UE) 2024/1689 (AI Act), article 5",
+              "Règlement (UE) 2024/1689 (AI Act), article 81 est voisin de Règlement (UE) 2024/1689 (AI Act), article 80 dans l'acte"
+            ],
+            "32024R1689_art_101": [
+              "Règlement (UE) 2024/1689 (AI Act), article 101 est voisin de Règlement (UE) 2024/1689 (AI Act), article 100 dans l'acte"
+            ]
+          }
+        },
+        {
+          "id": "F09",
+          "type": "factuelle",
+          "question": "À partir de quelle date l'AI Act est-il applicable, et quelles dispositions s'appliquent plus tôt ?",
+          "gold": [
+            "32024R1689_art_113"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_113",
+            "32024R1689_art_111",
+            "32024R1689_art_56",
+            "32024R1689_art_112",
+            "32024R1689_art_2"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 27.41,
+          "n_articles": 5,
+          "context_chars": 6118,
+          "context_tokens_approx": 1530,
+          "graph_added": [
+            "32024R1689_art_112",
+            "32024R1689_art_2"
+          ],
+          "via": {
+            "32024R1689_art_113": [
+              "Règlement (UE) 2024/1689 (AI Act), article 111 renvoie à Règlement (UE) 2024/1689 (AI Act), article 113"
+            ],
+            "32024R1689_art_111": [
+              "Règlement (UE) 2024/1689 (AI Act), article 111 renvoie à Règlement (UE) 2024/1689 (AI Act), article 113",
+              "Règlement (UE) 2024/1689 (AI Act), article 111 renvoie à Règlement (UE) 2024/1689 (AI Act), article 5"
+            ],
+            "32024R1689_art_56": [
+              "Règlement (UE) 2024/1689 (AI Act), article 53 renvoie à Règlement (UE) 2024/1689 (AI Act), article 56",
+              "Règlement (UE) 2024/1689 (AI Act), article 56 renvoie à Règlement (UE) 2024/1689 (AI Act), article 53"
+            ],
+            "32024R1689_art_112": [
+              "Règlement (UE) 2024/1689 (AI Act), article 112 renvoie à Règlement (UE) 2024/1689 (AI Act), article 5",
+              "Règlement (UE) 2024/1689 (AI Act), article 112 est voisin de Règlement (UE) 2024/1689 (AI Act), article 111 dans l'acte",
+              "Règlement (UE) 2024/1689 (AI Act), article 112 est voisin de Règlement (UE) 2024/1689 (AI Act), article 113 dans l'acte"
+            ],
+            "32024R1689_art_2": [
+              "Règlement (UE) 2024/1689 (AI Act), article 2 renvoie à Règlement (UE) 2024/1689 (AI Act), article 10",
+              "Règlement (UE) 2024/1689 (AI Act), article 2 renvoie à Règlement (UE) 2024/1689 (AI Act), article 5"
+            ]
+          }
+        },
+        {
+          "id": "F10",
+          "type": "factuelle",
+          "question": "À partir de combien d'utilisateurs une plateforme est-elle considérée comme une très grande plateforme en ligne au sens du DSA ?",
+          "gold": [
+            "32022R2065_art_33"
+          ],
+          "retrieved_articles": [
+            "32022R2065_art_33",
+            "32022R2065_art_42",
+            "32022R2065_art_19",
+            "32022R2065_art_29",
+            "32022R2065_art_40"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 45.44,
+          "n_articles": 5,
+          "context_chars": 7334,
+          "context_tokens_approx": 1834,
+          "graph_added": [],
+          "via": {
+            "32022R2065_art_33": [
+              "Règlement (UE) 2022/2065 (DSA), article 19 renvoie à Règlement (UE) 2022/2065 (DSA), article 33",
+              "Règlement (UE) 2022/2065 (DSA), article 34 renvoie à Règlement (UE) 2022/2065 (DSA), article 33",
+              "Règlement (UE) 2022/2065 (DSA), article 29 renvoie à Règlement (UE) 2022/2065 (DSA), article 33",
+              "Règlement (UE) 2022/2065 (DSA), article 33 est voisin de Règlement (UE) 2022/2065 (DSA), article 34 dans l'acte"
+            ],
+            "32022R2065_art_42": [
+              "Règlement (UE) 2022/2065 (DSA), article 42 renvoie à Règlement (UE) 2022/2065 (DSA), article 33",
+              "Règlement (UE) 2022/2065 (DSA), article 42 renvoie à Règlement (UE) 2022/2065 (DSA), article 34",
+              "Règlement (UE) 2022/2065 (DSA), article 42 est voisin de Règlement (UE) 2022/2065 (DSA), article 41 dans l'acte"
+            ],
+            "32022R2065_art_19": [
+              "Règlement (UE) 2022/2065 (DSA), article 19 renvoie à Règlement (UE) 2022/2065 (DSA), article 33"
+            ],
+            "32022R2065_art_29": [
+              "Règlement (UE) 2022/2065 (DSA), article 29 renvoie à Règlement (UE) 2022/2065 (DSA), article 33"
+            ],
+            "32022R2065_art_40": [
+              "Règlement (UE) 2022/2065 (DSA), article 40 renvoie à Règlement (UE) 2022/2065 (DSA), article 34",
+              "Règlement (UE) 2022/2065 (DSA), article 40 est voisin de Règlement (UE) 2022/2065 (DSA), article 41 dans l'acte"
+            ]
+          }
+        },
+        {
+          "id": "F11",
+          "type": "factuelle",
+          "question": "Quels seuils font présumer qu'une entreprise est un contrôleur d'accès selon le DMA ?",
+          "gold": [
+            "32022R1925_art_3"
+          ],
+          "retrieved_articles": [
+            "32022R1925_art_3",
+            "32022R1925_art_13",
+            "32022R1925_art_41",
+            "32022R1925_art_17",
+            "32022R1925_art_5"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 36.82,
+          "n_articles": 5,
+          "context_chars": 6785,
+          "context_tokens_approx": 1696,
+          "graph_added": [
+            "32022R1925_art_41",
+            "32022R1925_art_17"
+          ],
+          "via": {
+            "32022R1925_art_3": [
+              "Règlement (UE) 2022/1925 (DMA), article 13 renvoie à Règlement (UE) 2022/1925 (DMA), article 3",
+              "Règlement (UE) 2022/1925 (DMA), article 5 renvoie à Règlement (UE) 2022/1925 (DMA), article 3",
+              "Règlement (UE) 2022/1925 (DMA), article 6 renvoie à Règlement (UE) 2022/1925 (DMA), article 3",
+              "Règlement (UE) 2022/1925 (DMA), article 27 renvoie à Règlement (UE) 2022/1925 (DMA), article 3",
+              "Règlement (UE) 2022/1925 (DMA), article 14 renvoie à Règlement (UE) 2022/1925 (DMA), article 3",
+              "Règlement (UE) 2022/1925 (DMA), article 3 renvoie à Règlement (UE) 2022/1925 (DMA), article 5"
+            ],
+            "32022R1925_art_13": [
+              "Règlement (UE) 2022/1925 (DMA), article 8 renvoie à Règlement (UE) 2022/1925 (DMA), article 13",
+              "Règlement (UE) 2022/1925 (DMA), article 13 renvoie à Règlement (UE) 2022/1925 (DMA), article 3",
+              "Règlement (UE) 2022/1925 (DMA), article 13 renvoie à Règlement (UE) 2022/1925 (DMA), article 5",
+              "Règlement (UE) 2022/1925 (DMA), article 13 renvoie à Règlement (UE) 2022/1925 (DMA), article 8",
+              "Règlement (UE) 2022/1925 (DMA), article 13 est voisin de Règlement (UE) 2022/1925 (DMA), article 12 dans l'acte",
+              "Règlement (UE) 2022/1925 (DMA), article 13 est voisin de Règlement (UE) 2022/1925 (DMA), article 14 dans l'acte"
+            ],
+            "32022R1925_art_41": [
+              "Règlement (UE) 2022/1925 (DMA), article 41 renvoie à Règlement (UE) 2022/1925 (DMA), article 3",
+              "Règlement (UE) 2022/1925 (DMA), article 41 renvoie à Règlement (UE) 2022/1925 (DMA), article 5"
+            ],
+            "32022R1925_art_17": [
+              "Règlement (UE) 2022/1925 (DMA), article 3 renvoie à Règlement (UE) 2022/1925 (DMA), article 17",
+              "Règlement (UE) 2022/1925 (DMA), article 17 renvoie à Règlement (UE) 2022/1925 (DMA), article 3",
+              "Règlement (UE) 2022/1925 (DMA), article 17 renvoie à Règlement (UE) 2022/1925 (DMA), article 5",
+              "Règlement (UE) 2022/1925 (DMA), article 17 renvoie à Règlement (UE) 2022/1925 (DMA), article 6"
+            ],
+            "32022R1925_art_5": [
+              "Règlement (UE) 2022/1925 (DMA), article 13 renvoie à Règlement (UE) 2022/1925 (DMA), article 5",
+              "Règlement (UE) 2022/1925 (DMA), article 3 renvoie à Règlement (UE) 2022/1925 (DMA), article 5",
+              "Règlement (UE) 2022/1925 (DMA), article 12 renvoie à Règlement (UE) 2022/1925 (DMA), article 5",
+              "Règlement (UE) 2022/1925 (DMA), article 8 renvoie à Règlement (UE) 2022/1925 (DMA), article 5",
+              "Règlement (UE) 2022/1925 (DMA), article 5 renvoie à Règlement (UE) 2022/1925 (DMA), article 3",
+              "Règlement (UE) 2022/1925 (DMA), article 5 est voisin de Règlement (UE) 2022/1925 (DMA), article 6 dans l'acte"
+            ]
+          }
+        },
+        {
+          "id": "F12",
+          "type": "factuelle",
+          "question": "Quelles sont les étapes et délais de notification d'un incident important prévus par NIS2 ?",
+          "gold": [
+            "32022L2555_art_23"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_23",
+            "32022L2555_art_30",
+            "32022L2555_art_4",
+            "32022L2555_art_13",
+            "32022L2555_art_34"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 54.3,
+          "n_articles": 5,
+          "context_chars": 6298,
+          "context_tokens_approx": 1574,
+          "graph_added": [
+            "32022L2555_art_4",
+            "32022L2555_art_13",
+            "32022L2555_art_34"
+          ],
+          "via": {
+            "32022L2555_art_23": [
+              "Directive (UE) 2022/2555 (NIS2), article 30 renvoie à Directive (UE) 2022/2555 (NIS2), article 23",
+              "Directive (UE) 2022/2555 (NIS2), article 32 renvoie à Directive (UE) 2022/2555 (NIS2), article 23",
+              "Directive (UE) 2022/2555 (NIS2), article 23 renvoie à Directive (UE) 2022/2555 (NIS2), article 30"
+            ],
+            "32022L2555_art_30": [
+              "Directive (UE) 2022/2555 (NIS2), article 23 renvoie à Directive (UE) 2022/2555 (NIS2), article 30",
+              "Directive (UE) 2022/2555 (NIS2), article 30 renvoie à Directive (UE) 2022/2555 (NIS2), article 23"
+            ],
+            "32022L2555_art_4": [
+              "Directive (UE) 2022/2555 (NIS2), article 4 renvoie à Directive (UE) 2022/2555 (NIS2), article 23"
+            ],
+            "32022L2555_art_13": [
+              "Directive (UE) 2022/2555 (NIS2), article 13 renvoie à Directive (UE) 2022/2555 (NIS2), article 23",
+              "Directive (UE) 2022/2555 (NIS2), article 13 renvoie à Directive (UE) 2022/2555 (NIS2), article 30"
+            ],
+            "32022L2555_art_34": [
+              "Directive (UE) 2022/2555 (NIS2), article 32 renvoie à Directive (UE) 2022/2555 (NIS2), article 34",
+              "Directive (UE) 2022/2555 (NIS2), article 34 renvoie à Directive (UE) 2022/2555 (NIS2), article 32"
+            ]
+          }
+        },
+        {
+          "id": "F13",
+          "type": "factuelle",
+          "question": "Dans quel délai un fabricant doit-il signaler une vulnérabilité activement exploitée dans un produit comportant des éléments numériques ?",
+          "gold": [
+            "32024R2847_art_14"
+          ],
+          "retrieved_articles": [
+            "32024R2847_art_14",
+            "32024R2847_art_15",
+            "32024R2847_art_13",
+            "32024R2847_art_19",
+            "32024R2847_art_16"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 42.19,
+          "n_articles": 5,
+          "context_chars": 8015,
+          "context_tokens_approx": 2004,
+          "graph_added": [],
+          "via": {
+            "32024R2847_art_14": [
+              "Règlement (UE) 2024/2847 (CRA), article 16 renvoie à Règlement (UE) 2024/2847 (CRA), article 14",
+              "Règlement (UE) 2024/2847 (CRA), article 14 renvoie à Règlement (UE) 2024/2847 (CRA), article 15",
+              "Règlement (UE) 2024/2847 (CRA), article 14 renvoie à Règlement (UE) 2024/2847 (CRA), article 16",
+              "Règlement (UE) 2024/2847 (CRA), article 14 est voisin de Règlement (UE) 2024/2847 (CRA), article 15 dans l'acte",
+              "Règlement (UE) 2024/2847 (CRA), article 14 est voisin de Règlement (UE) 2024/2847 (CRA), article 13 dans l'acte"
+            ],
+            "32024R2847_art_15": [
+              "Règlement (UE) 2024/2847 (CRA), article 14 renvoie à Règlement (UE) 2024/2847 (CRA), article 15",
+              "Règlement (UE) 2024/2847 (CRA), article 16 renvoie à Règlement (UE) 2024/2847 (CRA), article 15",
+              "Règlement (UE) 2024/2847 (CRA), article 15 renvoie à Règlement (UE) 2024/2847 (CRA), article 16",
+              "Règlement (UE) 2024/2847 (CRA), article 15 est voisin de Règlement (UE) 2024/2847 (CRA), article 14 dans l'acte",
+              "Règlement (UE) 2024/2847 (CRA), article 15 est voisin de Règlement (UE) 2024/2847 (CRA), article 16 dans l'acte"
+            ],
+            "32024R2847_art_13": [
+              "Règlement (UE) 2024/2847 (CRA), article 19 renvoie à Règlement (UE) 2024/2847 (CRA), article 13",
+              "Règlement (UE) 2024/2847 (CRA), article 20 renvoie à Règlement (UE) 2024/2847 (CRA), article 13",
+              "Règlement (UE) 2024/2847 (CRA), article 13 est voisin de Règlement (UE) 2024/2847 (CRA), article 14 dans l'acte"
+            ],
+            "32024R2847_art_19": [
+              "Règlement (UE) 2024/2847 (CRA), article 20 renvoie à Règlement (UE) 2024/2847 (CRA), article 19",
+              "Règlement (UE) 2024/2847 (CRA), article 19 renvoie à Règlement (UE) 2024/2847 (CRA), article 13",
+              "Règlement (UE) 2024/2847 (CRA), article 19 est voisin de Règlement (UE) 2024/2847 (CRA), article 20 dans l'acte"
+            ],
+            "32024R2847_art_16": [
+              "Règlement (UE) 2024/2847 (CRA), article 14 renvoie à Règlement (UE) 2024/2847 (CRA), article 16",
+              "Règlement (UE) 2024/2847 (CRA), article 15 renvoie à Règlement (UE) 2024/2847 (CRA), article 16",
+              "Règlement (UE) 2024/2847 (CRA), article 16 renvoie à Règlement (UE) 2024/2847 (CRA), article 14",
+              "Règlement (UE) 2024/2847 (CRA), article 16 renvoie à Règlement (UE) 2024/2847 (CRA), article 15",
+              "Règlement (UE) 2024/2847 (CRA), article 16 est voisin de Règlement (UE) 2024/2847 (CRA), article 15 dans l'acte"
+            ]
+          }
+        },
+        {
+          "id": "F14",
+          "type": "factuelle",
+          "question": "Quelles obligations de transparence s'appliquent aux systèmes d'IA qui génèrent des hypertrucages (deepfakes) ?",
+          "gold": [
+            "32024R1689_art_50"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_50",
+            "32024R1689_art_1",
+            "32024R1689_art_13",
+            "32024R1689_art_96",
+            "32024R1689_art_112"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 55.85,
+          "n_articles": 5,
+          "context_chars": 7327,
+          "context_tokens_approx": 1832,
+          "graph_added": [
+            "32024R1689_art_96",
+            "32024R1689_art_112"
+          ],
+          "via": {
+            "32024R1689_art_50": [
+              "Règlement (UE) 2024/1689 (AI Act), article 26 renvoie à Règlement (UE) 2024/1689 (AI Act), article 50"
+            ],
+            "32024R1689_art_13": [
+              "Règlement (UE) 2024/1689 (AI Act), article 26 renvoie à Règlement (UE) 2024/1689 (AI Act), article 13"
+            ],
+            "32024R1689_art_96": [
+              "Règlement (UE) 2024/1689 (AI Act), article 96 renvoie à Règlement (UE) 2024/1689 (AI Act), article 50",
+              "Règlement (UE) 2024/1689 (AI Act), article 96 renvoie à Règlement (UE) 2024/1689 (AI Act), article 25"
+            ],
+            "32024R1689_art_112": [
+              "Règlement (UE) 2024/1689 (AI Act), article 112 renvoie à Règlement (UE) 2024/1689 (AI Act), article 50"
+            ]
+          }
+        },
+        {
+          "id": "R01",
+          "type": "relationnelle",
+          "question": "Quelle directive le RGPD abroge-t-il et à partir de quand ?",
+          "gold": [
+            "32016R0679_art_94"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_94",
+            "32016R0679_art_46",
+            "32016R0679_art_99",
+            "32021L0514_art_1",
+            "32023R2842_art_4"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 27.77,
+          "n_articles": 5,
+          "context_chars": 5792,
+          "context_tokens_approx": 1448,
+          "graph_added": [
+            "32016R0679_art_46"
+          ],
+          "via": {
+            "32016R0679_art_94": [
+              "Règlement (UE) 2016/679 (RGPD), article 94 abroge Directive 95/46/CE"
+            ],
+            "32016R0679_art_46": [
+              "Règlement (UE) 2016/679 (RGPD), article 58 renvoie à Règlement (UE) 2016/679 (RGPD), article 46",
+              "Règlement (UE) 2016/679 (RGPD), article 57 renvoie à Règlement (UE) 2016/679 (RGPD), article 46"
+            ]
+          }
+        },
+        {
+          "id": "R02",
+          "type": "relationnelle",
+          "question": "Comment le DSA modifie-t-il la directive sur le commerce électronique 2000/31/CE ?",
+          "gold": [
+            "32022R2065_art_89"
+          ],
+          "retrieved_articles": [
+            "32022R2065_art_89",
+            "32000L0031_art_24",
+            "32000L0031_art_21",
+            "32022R2065_art_90",
+            "32000L0031_art_18"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 27.51,
+          "n_articles": 5,
+          "context_chars": 4481,
+          "context_tokens_approx": 1120,
+          "graph_added": [
+            "32022R2065_art_89"
+          ],
+          "via": {
+            "32022R2065_art_89": [
+              "Règlement (UE) 2022/2065 (DSA), article 89 modifie Directive 2000/31/CE",
+              "Règlement (UE) 2022/2065 (DSA), article 89 est voisin de Règlement (UE) 2022/2065 (DSA), article 90 dans l'acte"
+            ],
+            "32000L0031_art_24": [
+              "Directive 2000/31/CE (directive commerce électronique), article 24 est voisin de Directive 2000/31/CE (directive commerce électronique), article 23 dans l'acte"
+            ],
+            "32000L0031_art_21": [
+              "Directive 2000/31/CE (directive commerce électronique), article 21 est voisin de Directive 2000/31/CE (directive commerce électronique), article 22 dans l'acte"
+            ],
+            "32000L0031_art_18": [
+              "Directive 2000/31/CE (directive commerce électronique), article 18 est voisin de Directive 2000/31/CE (directive commerce électronique), article 19 dans l'acte"
+            ]
+          }
+        },
+        {
+          "id": "R03",
+          "type": "relationnelle",
+          "question": "Quelle directive est abrogée par NIS2 ?",
+          "gold": [
+            "32022L2555_art_44"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_44",
+            "32022L2555_art_1",
+            "32022L2555_art_43",
+            "32022L2555_art_42",
+            "32022L2555_art_2"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 24.39,
+          "n_articles": 5,
+          "context_chars": 3340,
+          "context_tokens_approx": 835,
+          "graph_added": [
+            "32022L2555_art_1"
+          ],
+          "via": {
+            "32022L2555_art_44": [
+              "Directive (UE) 2022/2555 (NIS2), article 44 abroge Directive (UE) 2016/1148",
+              "Directive (UE) 2022/2555 (NIS2), article 44 est voisin de Directive (UE) 2022/2555 (NIS2), article 43 dans l'acte"
+            ],
+            "32022L2555_art_1": [
+              "Directive (UE) 2022/2555 (NIS2), article 1 est voisin de Directive (UE) 2022/2555 (NIS2), article 2 dans l'acte"
+            ],
+            "32022L2555_art_43": [
+              "Directive (UE) 2022/2555 (NIS2), article 43 est voisin de Directive (UE) 2022/2555 (NIS2), article 44 dans l'acte"
+            ],
+            "32022L2555_art_42": [
+              "Directive (UE) 2022/2555 (NIS2), article 42 renvoie à Directive (UE) 2022/2555 (NIS2), article 19",
+              "Directive (UE) 2022/2555 (NIS2), article 42 est voisin de Directive (UE) 2022/2555 (NIS2), article 43 dans l'acte"
+            ]
+          }
+        },
+        {
+          "id": "R04",
+          "type": "relationnelle",
+          "question": "Sur quels articles du RGPD s'appuie l'obligation de réaliser une analyse d'impact, et quand est-elle requise ?",
+          "gold": [
+            "32016R0679_art_35"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_35",
+            "32016R0679_art_57",
+            "32018R1725_art_39",
+            "32016R0679_art_64",
+            "32016L0680_art_27"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 51.02,
+          "n_articles": 5,
+          "context_chars": 7628,
+          "context_tokens_approx": 1907,
+          "graph_added": [],
+          "via": {
+            "32016R0679_art_35": [
+              "Règlement (UE) 2024/1689 (AI Act), article 27 renvoie à Règlement (UE) 2016/679 (RGPD), article 35",
+              "Règlement (UE) 2016/679 (RGPD), article 57 renvoie à Règlement (UE) 2016/679 (RGPD), article 35"
+            ],
+            "32016R0679_art_57": [
+              "Règlement (UE) 2016/679 (RGPD), article 57 renvoie à Règlement (UE) 2016/679 (RGPD), article 35"
+            ],
+            "32018R1725_art_39": [
+              "Règlement (UE) 2018/1725 (EUDPR), article 40 renvoie à Règlement (UE) 2018/1725 (EUDPR), article 39",
+              "Règlement (UE) 2018/1725 (EUDPR), article 39 est voisin de Règlement (UE) 2018/1725 (EUDPR), article 40 dans l'acte"
+            ],
+            "32016R0679_art_64": [
+              "Règlement (UE) 2016/679 (RGPD), article 64 renvoie à Règlement (UE) 2016/679 (RGPD), article 35"
+            ],
+            "32016L0680_art_27": [
+              "Règlement (UE) 2024/1689 (AI Act), article 27 renvoie à Directive (UE) 2016/680 (directive police-justice), article 27",
+              "Directive (UE) 2016/680 (directive police-justice), article 28 renvoie à Directive (UE) 2016/680 (directive police-justice), article 27",
+              "Directive (UE) 2016/680 (directive police-justice), article 27 est voisin de Directive (UE) 2016/680 (directive police-justice), article 28 dans l'acte"
+            ]
+          }
+        },
+        {
+          "id": "M01",
+          "type": "multi_hop",
+          "question": "Comparez les délais de notification d'incident du RGPD et de NIS2.",
+          "gold": [
+            "32016R0679_art_33",
+            "32022L2555_art_23"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_23",
+            "32022L2555_art_4",
+            "32016R0679_art_33",
+            "32022L2555_art_6",
+            "32022L2555_art_32"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 57.2,
+          "n_articles": 5,
+          "context_chars": 7275,
+          "context_tokens_approx": 1819,
+          "graph_added": [
+            "32022L2555_art_4",
+            "32022L2555_art_6",
+            "32022L2555_art_32"
+          ],
+          "via": {
+            "32022L2555_art_23": [
+              "Directive (UE) 2022/2555 (NIS2), article 30 renvoie à Directive (UE) 2022/2555 (NIS2), article 23",
+              "Directive (UE) 2022/2555 (NIS2), article 23 renvoie à Directive (UE) 2022/2555 (NIS2), article 30"
+            ],
+            "32022L2555_art_4": [
+              "Directive (UE) 2022/2555 (NIS2), article 4 renvoie à Directive (UE) 2022/2555 (NIS2), article 23"
+            ],
+            "32022L2555_art_6": [
+              "Règlement délégué (UE) 2026/255, article 14 renvoie à Directive (UE) 2022/2555 (NIS2), article 6"
+            ],
+            "32022L2555_art_32": [
+              "Directive (UE) 2022/2555 (NIS2), article 32 renvoie à Directive (UE) 2022/2555 (NIS2), article 23"
+            ]
+          }
+        },
+        {
+          "id": "M02",
+          "type": "multi_hop",
+          "question": "Quels sont les plafonds d'amende du RGPD, de l'AI Act et du DMA ?",
+          "gold": [
+            "32016R0679_art_83",
+            "32024R1689_art_99",
+            "32022R1925_art_30"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_100",
+            "32024R1689_art_99",
+            "32016R0679_art_83",
+            "32024R1689_art_101",
+            "32022R1925_art_30"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.5,
+          "retrieval_seconds": 51.16,
+          "n_articles": 5,
+          "context_chars": 6680,
+          "context_tokens_approx": 1670,
+          "graph_added": [
+            "32024R1689_art_101"
+          ],
+          "via": {
+            "32024R1689_art_100": [
+              "Règlement (UE) 2024/1689 (AI Act), article 100 est voisin de Règlement (UE) 2024/1689 (AI Act), article 99 dans l'acte"
+            ],
+            "32024R1689_art_99": [
+              "Règlement (UE) 2024/1689 (AI Act), article 99 est voisin de Règlement (UE) 2024/1689 (AI Act), article 100 dans l'acte"
+            ],
+            "32016R0679_art_83": [
+              "Règlement (UE) 2016/679 (RGPD), article 58 renvoie à Règlement (UE) 2016/679 (RGPD), article 83",
+              "Règlement (UE) 2016/679 (RGPD), article 83 renvoie à Règlement (UE) 2016/679 (RGPD), article 58"
+            ],
+            "32024R1689_art_101": [
+              "Règlement (UE) 2024/1689 (AI Act), article 101 est voisin de Règlement (UE) 2024/1689 (AI Act), article 100 dans l'acte"
+            ],
+            "32022R1925_art_30": [
+              "Règlement (UE) 2022/1925 (DMA), article 33 renvoie à Règlement (UE) 2022/1925 (DMA), article 30"
+            ]
+          }
+        },
+        {
+          "id": "M03",
+          "type": "multi_hop",
+          "question": "Quelles obligations pèsent sur les très grandes plateformes en ligne : à partir de quand sont-elles désignées et quels risques doivent-elles évaluer ?",
+          "gold": [
+            "32022R2065_art_33",
+            "32022R2065_art_34"
+          ],
+          "retrieved_articles": [
+            "32022R2065_art_33",
+            "32022R2065_art_34",
+            "32022R2065_art_37",
+            "32022R2065_art_42",
+            "32022R2065_art_92"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 43.99,
+          "n_articles": 5,
+          "context_chars": 5590,
+          "context_tokens_approx": 1398,
+          "graph_added": [
+            "32022R2065_art_92"
+          ],
+          "via": {
+            "32022R2065_art_33": [
+              "Règlement (UE) 2022/2065 (DSA), article 34 renvoie à Règlement (UE) 2022/2065 (DSA), article 33",
+              "Règlement (UE) 2022/2065 (DSA), article 42 renvoie à Règlement (UE) 2022/2065 (DSA), article 33",
+              "Règlement (UE) 2022/2065 (DSA), article 33 est voisin de Règlement (UE) 2022/2065 (DSA), article 34 dans l'acte"
+            ],
+            "32022R2065_art_34": [
+              "Règlement (UE) 2022/2065 (DSA), article 41 renvoie à Règlement (UE) 2022/2065 (DSA), article 34",
+              "Règlement (UE) 2022/2065 (DSA), article 45 renvoie à Règlement (UE) 2022/2065 (DSA), article 34",
+              "Règlement (UE) 2022/2065 (DSA), article 42 renvoie à Règlement (UE) 2022/2065 (DSA), article 34",
+              "Règlement (UE) 2022/2065 (DSA), article 34 renvoie à Règlement (UE) 2022/2065 (DSA), article 33",
+              "Règlement (UE) 2022/2065 (DSA), article 34 est voisin de Règlement (UE) 2022/2065 (DSA), article 33 dans l'acte"
+            ],
+            "32022R2065_art_37": [
+              "Règlement (UE) 2022/2065 (DSA), article 41 renvoie à Règlement (UE) 2022/2065 (DSA), article 37",
+              "Règlement (UE) 2022/2065 (DSA), article 42 renvoie à Règlement (UE) 2022/2065 (DSA), article 37",
+              "Règlement (UE) 2022/2065 (DSA), article 37 renvoie à Règlement (UE) 2022/2065 (DSA), article 45",
+              "Règlement (UE) 2022/2065 (DSA), article 37 renvoie à Règlement (UE) 2022/2065 (DSA), article 42",
+              "Règlement (UE) 2022/2065 (DSA), article 37 est voisin de Règlement (UE) 2022/2065 (DSA), article 36 dans l'acte"
+            ],
+            "32022R2065_art_42": [
+              "Règlement (UE) 2022/2065 (DSA), article 37 renvoie à Règlement (UE) 2022/2065 (DSA), article 42",
+              "Règlement (UE) 2022/2065 (DSA), article 42 renvoie à Règlement (UE) 2022/2065 (DSA), article 34",
+              "Règlement (UE) 2022/2065 (DSA), article 42 renvoie à Règlement (UE) 2022/2065 (DSA), article 33",
+              "Règlement (UE) 2022/2065 (DSA), article 42 renvoie à Règlement (UE) 2022/2065 (DSA), article 37",
+              "Règlement (UE) 2022/2065 (DSA), article 42 est voisin de Règlement (UE) 2022/2065 (DSA), article 41 dans l'acte"
+            ],
+            "32022R2065_art_92": [
+              "Règlement (UE) 2022/2065 (DSA), article 92 renvoie à Règlement (UE) 2022/2065 (DSA), article 33"
+            ]
+          }
+        },
+        {
+          "id": "M04",
+          "type": "multi_hop",
+          "question": "Comparez les obligations de signalement d'incidents de NIS2 et du Cyber Resilience Act.",
+          "gold": [
+            "32022L2555_art_23",
+            "32024R2847_art_14"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_23",
+            "32022L2555_art_4",
+            "32022L2555_art_30",
+            "32022L2555_art_11",
+            "32022L2555_art_6"
+          ],
+          "recall": 0.5,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 56.97,
+          "n_articles": 5,
+          "context_chars": 6187,
+          "context_tokens_approx": 1547,
+          "graph_added": [
+            "32022L2555_art_30"
+          ],
+          "via": {
+            "32022L2555_art_4": [
+              "Directive (UE) 2022/2555 (NIS2), article 4 renvoie à Directive (UE) 2022/2555 (NIS2), article 23"
+            ],
+            "32022L2555_art_30": [
+              "Directive (UE) 2022/2555 (NIS2), article 23 renvoie à Directive (UE) 2022/2555 (NIS2), article 30",
+              "Directive (UE) 2022/2555 (NIS2), article 30 renvoie à Directive (UE) 2022/2555 (NIS2), article 23"
+            ]
+          }
+        },
+        {
+          "id": "M05",
+          "type": "multi_hop",
+          "question": "Quelles amendes les États membres doivent-ils prévoir pour les entités essentielles et importantes sous NIS2, et comment se comparent-elles aux amendes du RGPD ?",
+          "gold": [
+            "32022L2555_art_34",
+            "32016R0679_art_83"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_34",
+            "32022L2555_art_3",
+            "32022L2555_art_32",
+            "32022L2555_art_20",
+            "32022L2555_art_23"
+          ],
+          "recall": 0.5,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 49.08,
+          "n_articles": 5,
+          "context_chars": 6947,
+          "context_tokens_approx": 1737,
+          "graph_added": [
+            "32022L2555_art_23"
+          ],
+          "via": {
+            "32022L2555_art_34": [
+              "Directive (UE) 2022/2555 (NIS2), article 32 renvoie à Directive (UE) 2022/2555 (NIS2), article 34",
+              "Directive (UE) 2022/2555 (NIS2), article 34 renvoie à Directive (UE) 2022/2555 (NIS2), article 32"
+            ],
+            "32022L2555_art_32": [
+              "Directive (UE) 2022/2555 (NIS2), article 34 renvoie à Directive (UE) 2022/2555 (NIS2), article 32",
+              "Directive (UE) 2022/2555 (NIS2), article 32 renvoie à Directive (UE) 2022/2555 (NIS2), article 34"
+            ],
+            "32022L2555_art_23": [
+              "Directive (UE) 2022/2555 (NIS2), article 32 renvoie à Directive (UE) 2022/2555 (NIS2), article 23",
+              "Directive (UE) 2022/2555 (NIS2), article 30 renvoie à Directive (UE) 2022/2555 (NIS2), article 23",
+              "Directive (UE) 2022/2555 (NIS2), article 23 renvoie à Directive (UE) 2022/2555 (NIS2), article 30"
+            ]
+          }
+        },
+        {
+          "id": "M06",
+          "type": "multi_hop",
+          "question": "Quel droit d'accès aux données des produits connectés le Data Act donne-t-il à l'utilisateur, et peut-il les partager avec un tiers ?",
+          "gold": [
+            "32023R2854_art_3",
+            "32023R2854_art_4",
+            "32023R2854_art_5"
+          ],
+          "retrieved_articles": [
+            "32023R2854_art_5",
+            "32023R2854_art_4",
+            "32023R2854_art_6",
+            "32023R2854_art_3",
+            "32023R2854_art_1"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 28.54,
+          "n_articles": 5,
+          "context_chars": 7406,
+          "context_tokens_approx": 1852,
+          "graph_added": [],
+          "via": {
+            "32023R2854_art_5": [
+              "Règlement (UE) 2023/2854 (Data Act), article 6 renvoie à Règlement (UE) 2023/2854 (Data Act), article 5",
+              "Règlement (UE) 2023/2854 (Data Act), article 5 renvoie à Règlement (UE) 2023/2854 (Data Act), article 4",
+              "Règlement (UE) 2023/2854 (Data Act), article 5 est voisin de Règlement (UE) 2023/2854 (Data Act), article 6 dans l'acte",
+              "Règlement (UE) 2023/2854 (Data Act), article 5 est voisin de Règlement (UE) 2023/2854 (Data Act), article 4 dans l'acte"
+            ],
+            "32023R2854_art_4": [
+              "Règlement (UE) 2023/2854 (Data Act), article 5 renvoie à Règlement (UE) 2023/2854 (Data Act), article 4",
+              "Règlement (UE) 2023/2854 (Data Act), article 4 est voisin de Règlement (UE) 2023/2854 (Data Act), article 5 dans l'acte",
+              "Règlement (UE) 2023/2854 (Data Act), article 4 est voisin de Règlement (UE) 2023/2854 (Data Act), article 3 dans l'acte"
+            ],
+            "32023R2854_art_6": [
+              "Règlement (UE) 2023/2854 (Data Act), article 6 renvoie à Règlement (UE) 2023/2854 (Data Act), article 5",
+              "Règlement (UE) 2023/2854 (Data Act), article 6 est voisin de Règlement (UE) 2023/2854 (Data Act), article 5 dans l'acte",
+              "Règlement (UE) 2023/2854 (Data Act), article 6 est voisin de Règlement (UE) 2023/2854 (Data Act), article 7 dans l'acte"
+            ],
+            "32023R2854_art_3": [
+              "Règlement (UE) 2023/2854 (Data Act), article 7 renvoie à Règlement (UE) 2023/2854 (Data Act), article 3",
+              "Règlement (UE) 2023/2854 (Data Act), article 3 est voisin de Règlement (UE) 2023/2854 (Data Act), article 4 dans l'acte",
+              "Règlement (UE) 2023/2854 (Data Act), article 3 est voisin de Règlement (UE) 2023/2854 (Data Act), article 2 dans l'acte"
+            ],
+            "32023R2854_art_1": [
+              "Règlement (UE) 2023/2854 (Data Act), article 1 est voisin de Règlement (UE) 2023/2854 (Data Act), article 2 dans l'acte"
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "global": {
+          "n": 24,
+          "recall@k": 0.958,
+          "hit@k": 1.0,
+          "mrr": 0.938,
+          "retrieval_seconds": 42.97,
+          "n_articles": 5.0,
+          "context_tokens_approx": 1630.083
+        },
+        "factuelle": {
+          "n": 14,
+          "recall@k": 1.0,
+          "hit@k": 1.0,
+          "mrr": 0.929,
+          "retrieval_seconds": 43.831,
+          "n_articles": 5.0,
+          "context_tokens_approx": 1699.214
+        },
+        "multi_hop": {
+          "n": 6,
+          "recall@k": 0.833,
+          "hit@k": 1.0,
+          "mrr": 0.917,
+          "retrieval_seconds": 47.823,
+          "n_articles": 5.0,
+          "context_tokens_approx": 1670.5
+        },
+        "relationnelle": {
+          "n": 4,
+          "recall@k": 1.0,
+          "hit@k": 1.0,
+          "mrr": 1.0,
+          "retrieval_seconds": 32.672,
+          "n_articles": 5.0,
+          "context_tokens_approx": 1327.5
+        }
+      }
+    },
+    {
+      "mode": "graph_norerank",
+      "k": 5,
+      "rows": [
+        {
+          "id": "F01",
+          "type": "factuelle",
+          "question": "Dans quel délai le responsable du traitement doit-il notifier une violation de données personnelles à l'autorité de contrôle selon le RGPD ?",
+          "gold": [
+            "32016R0679_art_33"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_33",
+            "32016R0679_art_39",
+            "32016R0679_art_28",
+            "32016R0679_art_36",
+            "32016R0679_art_35"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.15,
+          "n_articles": 5,
+          "context_chars": 6077,
+          "context_tokens_approx": 1519,
+          "graph_added": [
+            "32016R0679_art_39",
+            "32016R0679_art_28",
+            "32016R0679_art_35"
+          ],
+          "via": {
+            "32016R0679_art_33": [
+              "Règlement (UE) 2016/679 (RGPD), article 34 renvoie à Règlement (UE) 2016/679 (RGPD), article 33",
+              "Règlement (UE) 2016/679 (RGPD), article 33 est voisin de Règlement (UE) 2016/679 (RGPD), article 34 dans l'acte"
+            ],
+            "32016R0679_art_39": [
+              "Règlement (UE) 2016/679 (RGPD), article 39 renvoie à Règlement (UE) 2016/679 (RGPD), article 36"
+            ],
+            "32016R0679_art_28": [
+              "Règlement (UE) 2016/679 (RGPD), article 58 renvoie à Règlement (UE) 2016/679 (RGPD), article 28"
+            ],
+            "32016R0679_art_36": [
+              "Règlement (UE) 2016/679 (RGPD), article 58 renvoie à Règlement (UE) 2016/679 (RGPD), article 36",
+              "Règlement (UE) 2016/679 (RGPD), article 36 renvoie à Règlement (UE) 2016/679 (RGPD), article 58"
+            ],
+            "32016R0679_art_35": [
+              "Règlement (UE) 2016/679 (RGPD), article 36 renvoie à Règlement (UE) 2016/679 (RGPD), article 35",
+              "Règlement (UE) 2016/679 (RGPD), article 35 est voisin de Règlement (UE) 2016/679 (RGPD), article 36 dans l'acte",
+              "Règlement (UE) 2016/679 (RGPD), article 35 est voisin de Règlement (UE) 2016/679 (RGPD), article 34 dans l'acte"
+            ]
+          }
+        },
+        {
+          "id": "F02",
+          "type": "factuelle",
+          "question": "Quel est le montant maximal des amendes administratives prévues par le RGPD ?",
+          "gold": [
+            "32016R0679_art_83"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_83",
+            "32016R0679_art_10",
+            "32025R0327_art_63",
+            "32016R0679_art_32",
+            "32018R1725_art_58"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.15,
+          "n_articles": 5,
+          "context_chars": 6406,
+          "context_tokens_approx": 1602,
+          "graph_added": [
+            "32016R0679_art_10",
+            "32025R0327_art_63",
+            "32016R0679_art_32",
+            "32018R1725_art_58"
+          ],
+          "via": {
+            "32016R0679_art_83": [
+              "Règlement (UE) 2016/679 (RGPD), article 58 renvoie à Règlement (UE) 2016/679 (RGPD), article 83",
+              "Règlement (UE) 2023/2854 (Data Act), article 40 renvoie à Règlement (UE) 2016/679 (RGPD), article 83",
+              "Règlement (UE) 2016/679 (RGPD), article 83 renvoie à Règlement (UE) 2016/679 (RGPD), article 58"
+            ],
+            "32016R0679_art_10": [
+              "Règlement (UE) 2016/679 (RGPD), article 30 renvoie à Règlement (UE) 2016/679 (RGPD), article 10"
+            ],
+            "32025R0327_art_63": [
+              "Règlement (UE) 2025/327 (EHDS), article 64 renvoie à Règlement (UE) 2025/327 (EHDS), article 63",
+              "Règlement (UE) 2025/327 (EHDS), article 63 est voisin de Règlement (UE) 2025/327 (EHDS), article 64 dans l'acte"
+            ],
+            "32016R0679_art_32": [
+              "Règlement (UE) 2016/679 (RGPD), article 30 renvoie à Règlement (UE) 2016/679 (RGPD), article 32"
+            ],
+            "32018R1725_art_58": [
+              "Règlement (UE) 2018/1725 (EUDPR), article 66 renvoie à Règlement (UE) 2018/1725 (EUDPR), article 58",
+              "Règlement (UE) 2018/1725 (EUDPR), article 58 renvoie à Règlement (UE) 2018/1725 (EUDPR), article 66"
+            ]
+          }
+        },
+        {
+          "id": "F03",
+          "type": "factuelle",
+          "question": "Dans quels cas une personne peut-elle obtenir l'effacement de ses données personnelles ?",
+          "gold": [
+            "32016R0679_art_17"
+          ],
+          "retrieved_articles": [
+            "32018R1725_art_19",
+            "32022R0991_art_1",
+            "32016R0679_art_17",
+            "32016R0679_art_15",
+            "32016L0680_art_14"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.3333333333333333,
+          "retrieval_seconds": 0.19,
+          "n_articles": 5,
+          "context_chars": 7242,
+          "context_tokens_approx": 1810,
+          "graph_added": [
+            "32022R0991_art_1",
+            "32016R0679_art_15",
+            "32016L0680_art_14"
+          ],
+          "via": {
+            "32022R0991_art_1": [
+              "Règlement (UE) 2022/991, article 1 renvoie à Règlement (UE) 2018/1725 (EUDPR), article 82",
+              "Règlement (UE) 2022/991, article 1 modifie Règlement (UE) 2016/794"
+            ],
+            "32016R0679_art_17": [
+              "Règlement (UE) 2016/679 (RGPD), article 19 renvoie à Règlement (UE) 2016/679 (RGPD), article 17"
+            ],
+            "32016R0679_art_15": [
+              "Règlement (UE) 2019/818, article 48 renvoie à Règlement (UE) 2016/679 (RGPD), article 15"
+            ],
+            "32016L0680_art_14": [
+              "Règlement (UE) 2019/818, article 48 renvoie à Directive (UE) 2016/680 (directive police-justice), article 14"
+            ]
+          }
+        },
+        {
+          "id": "F04",
+          "type": "factuelle",
+          "question": "Quelles sont les bases légales qui rendent licite un traitement de données à caractère personnel ?",
+          "gold": [
+            "32016R0679_art_6"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_6",
+            "32018R1725_art_19",
+            "32016R0679_art_14",
+            "32018R1725_art_8",
+            "32016R0679_art_8"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.18,
+          "n_articles": 5,
+          "context_chars": 7603,
+          "context_tokens_approx": 1901,
+          "graph_added": [
+            "32018R1725_art_19",
+            "32018R1725_art_8",
+            "32016R0679_art_8"
+          ],
+          "via": {
+            "32016R0679_art_6": [
+              "Règlement (UE) 2016/679 (RGPD), article 14 renvoie à Règlement (UE) 2016/679 (RGPD), article 6",
+              "Règlement (UE) 2016/679 (RGPD), article 13 renvoie à Règlement (UE) 2016/679 (RGPD), article 6",
+              "Règlement (UE) 2016/679 (RGPD), article 17 renvoie à Règlement (UE) 2016/679 (RGPD), article 6",
+              "Règlement (UE) 2016/679 (RGPD), article 6 renvoie à Règlement (UE) 2016/679 (RGPD), article 9",
+              "Règlement (UE) 2016/679 (RGPD), article 6 renvoie à Règlement (UE) 2016/679 (RGPD), article 23",
+              "Règlement (UE) 2016/679 (RGPD), article 6 est voisin de Règlement (UE) 2016/679 (RGPD), article 5 dans l'acte"
+            ],
+            "32018R1725_art_19": [
+              "Règlement (UE) 2018/1725 (EUDPR), article 19 renvoie à Règlement (UE) 2018/1725 (EUDPR), article 5"
+            ],
+            "32016R0679_art_14": [
+              "Règlement (UE) 2016/679 (RGPD), article 14 renvoie à Règlement (UE) 2016/679 (RGPD), article 6",
+              "Règlement (UE) 2016/679 (RGPD), article 14 renvoie à Règlement (UE) 2016/679 (RGPD), article 9",
+              "Règlement (UE) 2016/679 (RGPD), article 14 est voisin de Règlement (UE) 2016/679 (RGPD), article 13 dans l'acte"
+            ],
+            "32018R1725_art_8": [
+              "Règlement (UE) 2018/1725 (EUDPR), article 8 renvoie à Règlement (UE) 2018/1725 (EUDPR), article 5"
+            ],
+            "32016R0679_art_8": [
+              "Règlement (UE) 2016/679 (RGPD), article 17 renvoie à Règlement (UE) 2016/679 (RGPD), article 8",
+              "Règlement (UE) 2016/679 (RGPD), article 8 renvoie à Règlement (UE) 2016/679 (RGPD), article 6",
+              "Règlement (UE) 2016/679 (RGPD), article 8 est voisin de Règlement (UE) 2016/679 (RGPD), article 9 dans l'acte"
+            ]
+          }
+        },
+        {
+          "id": "F05",
+          "type": "factuelle",
+          "question": "Quand un organisme est-il obligé de désigner un délégué à la protection des données ?",
+          "gold": [
+            "32016R0679_art_37"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_37",
+            "32017R1939_art_78",
+            "32017R1939_art_79",
+            "32018R1725_art_43",
+            "32016L0680_art_34"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.09,
+          "n_articles": 5,
+          "context_chars": 6505,
+          "context_tokens_approx": 1626,
+          "graph_added": [
+            "32017R1939_art_78",
+            "32017R1939_art_79",
+            "32016L0680_art_34"
+          ],
+          "via": {
+            "32016R0679_art_37": [
+              "Règlement (UE) 2016/679 (RGPD), article 37 renvoie à Règlement (UE) 2016/679 (RGPD), article 39",
+              "Règlement (UE) 2016/679 (RGPD), article 37 est voisin de Règlement (UE) 2016/679 (RGPD), article 38 dans l'acte"
+            ],
+            "32017R1939_art_78": [
+              "Règlement (UE) 2017/1939, article 78 est voisin de Règlement (UE) 2017/1939, article 77 dans l'acte"
+            ],
+            "32017R1939_art_79": [
+              "Règlement (UE) 2017/1939, article 77 renvoie à Règlement (UE) 2017/1939, article 79"
+            ],
+            "32018R1725_art_43": [
+              "Règlement (UE) 2018/1725 (EUDPR), article 43 renvoie à Règlement (UE) 2018/1725 (EUDPR), article 45",
+              "Règlement (UE) 2018/1725 (EUDPR), article 43 est voisin de Règlement (UE) 2018/1725 (EUDPR), article 44 dans l'acte"
+            ],
+            "32016L0680_art_34": [
+              "Directive (UE) 2016/680 (directive police-justice), article 32 renvoie à Directive (UE) 2016/680 (directive police-justice), article 34"
+            ]
+          }
+        },
+        {
+          "id": "F06",
+          "type": "factuelle",
+          "question": "Sous quel format les données doivent-elles être fournies au titre du droit à la portabilité ?",
+          "gold": [
+            "32016R0679_art_20"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_20",
+            "32025R0327_art_3",
+            "32018R1725_art_22",
+            "32023R2854_art_18",
+            "32016R0679_art_5"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.14,
+          "n_articles": 5,
+          "context_chars": 6213,
+          "context_tokens_approx": 1553,
+          "graph_added": [
+            "32025R0327_art_3",
+            "32023R2854_art_18"
+          ],
+          "via": {
+            "32025R0327_art_3": [
+              "Règlement (UE) 2025/327 (EHDS), article 7 renvoie à Règlement (UE) 2025/327 (EHDS), article 3"
+            ],
+            "32023R2854_art_18": [
+              "Règlement (UE) 2023/2854 (Data Act), article 17 renvoie à Règlement (UE) 2023/2854 (Data Act), article 18",
+              "Règlement (UE) 2023/2854 (Data Act), article 18 renvoie à Règlement (UE) 2023/2854 (Data Act), article 17",
+              "Règlement (UE) 2023/2854 (Data Act), article 18 est voisin de Règlement (UE) 2023/2854 (Data Act), article 17 dans l'acte"
+            ]
+          }
+        },
+        {
+          "id": "F07",
+          "type": "factuelle",
+          "question": "Quelles pratiques en matière d'intelligence artificielle sont interdites par l'AI Act ?",
+          "gold": [
+            "32024R1689_art_5"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_5",
+            "32026R1744_art_1",
+            "32024R1689_art_27",
+            "32024R1689_art_10",
+            "32024R1689_art_2"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.13,
+          "n_articles": 5,
+          "context_chars": 5325,
+          "context_tokens_approx": 1331,
+          "graph_added": [
+            "32026R1744_art_1",
+            "32024R1689_art_27",
+            "32024R1689_art_2"
+          ],
+          "via": {
+            "32026R1744_art_1": [
+              "Règlement (UE) 2026/1744, article 1 modifie Règlement (UE) 2024/1689"
+            ],
+            "32024R1689_art_27": [
+              "Règlement (UE) 2024/1689 (AI Act), article 5 renvoie à Règlement (UE) 2024/1689 (AI Act), article 27"
+            ],
+            "32024R1689_art_2": [
+              "Règlement (UE) 2024/1689 (AI Act), article 2 renvoie à Règlement (UE) 2024/1689 (AI Act), article 5",
+              "Règlement (UE) 2024/1689 (AI Act), article 2 renvoie à Règlement (UE) 2024/1689 (AI Act), article 10",
+              "Règlement (UE) 2024/1689 (AI Act), article 2 renvoie à Règlement (UE) 2024/1689 (AI Act), article 59"
+            ]
+          }
+        },
+        {
+          "id": "F08",
+          "type": "factuelle",
+          "question": "Quelles amendes sont encourues en cas de non-respect des pratiques d'IA interdites ?",
+          "gold": [
+            "32024R1689_art_99"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_101",
+            "32024R1689_art_81",
+            "32024R1689_art_99",
+            "32024R1689_art_92",
+            "32016R0679_art_83"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.3333333333333333,
+          "retrieval_seconds": 0.15,
+          "n_articles": 5,
+          "context_chars": 7808,
+          "context_tokens_approx": 1952,
+          "graph_added": [
+            "32024R1689_art_81",
+            "32024R1689_art_92"
+          ],
+          "via": {
+            "32024R1689_art_101": [
+              "Règlement (UE) 2024/1689 (AI Act), article 101 est voisin de Règlement (UE) 2024/1689 (AI Act), article 100 dans l'acte"
+            ],
+            "32024R1689_art_81": [
+              "Règlement (UE) 2024/1689 (AI Act), article 81 renvoie à Règlement (UE) 2024/1689 (AI Act), article 5",
+              "Règlement (UE) 2024/1689 (AI Act), article 81 est voisin de Règlement (UE) 2024/1689 (AI Act), article 80 dans l'acte"
+            ],
+            "32024R1689_art_99": [
+              "Règlement (UE) 2024/1689 (AI Act), article 80 renvoie à Règlement (UE) 2024/1689 (AI Act), article 99",
+              "Règlement (UE) 2024/1689 (AI Act), article 99 renvoie à Règlement (UE) 2024/1689 (AI Act), article 5",
+              "Règlement (UE) 2024/1689 (AI Act), article 99 renvoie à Règlement (UE) 2024/1689 (AI Act), article 50",
+              "Règlement (UE) 2024/1689 (AI Act), article 99 est voisin de Règlement (UE) 2024/1689 (AI Act), article 100 dans l'acte"
+            ],
+            "32024R1689_art_92": [
+              "Règlement (UE) 2024/1689 (AI Act), article 101 renvoie à Règlement (UE) 2024/1689 (AI Act), article 92",
+              "Règlement (UE) 2024/1689 (AI Act), article 92 renvoie à Règlement (UE) 2024/1689 (AI Act), article 101"
+            ]
+          }
+        },
+        {
+          "id": "F09",
+          "type": "factuelle",
+          "question": "À partir de quelle date l'AI Act est-il applicable, et quelles dispositions s'appliquent plus tôt ?",
+          "gold": [
+            "32024R1689_art_113"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_111",
+            "32024R1689_art_2",
+            "32026R1744_art_1",
+            "32024R1689_art_113",
+            "32024R1689_art_96"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.25,
+          "retrieval_seconds": 0.16,
+          "n_articles": 5,
+          "context_chars": 5790,
+          "context_tokens_approx": 1448,
+          "graph_added": [
+            "32024R1689_art_2",
+            "32026R1744_art_1",
+            "32024R1689_art_96"
+          ],
+          "via": {
+            "32024R1689_art_111": [
+              "Règlement (UE) 2024/1689 (AI Act), article 111 renvoie à Règlement (UE) 2024/1689 (AI Act), article 113",
+              "Règlement (UE) 2024/1689 (AI Act), article 111 renvoie à Règlement (UE) 2024/1689 (AI Act), article 5"
+            ],
+            "32024R1689_art_2": [
+              "Règlement (UE) 2024/1689 (AI Act), article 2 renvoie à Règlement (UE) 2024/1689 (AI Act), article 10",
+              "Règlement (UE) 2024/1689 (AI Act), article 2 renvoie à Règlement (UE) 2024/1689 (AI Act), article 5"
+            ],
+            "32026R1744_art_1": [
+              "Règlement (UE) 2026/1744, article 1 modifie Règlement (UE) 2024/1689"
+            ],
+            "32024R1689_art_113": [
+              "Règlement (UE) 2024/1689 (AI Act), article 111 renvoie à Règlement (UE) 2024/1689 (AI Act), article 113"
+            ],
+            "32024R1689_art_96": [
+              "Règlement (UE) 2024/1689 (AI Act), article 96 renvoie à Règlement (UE) 2024/1689 (AI Act), article 5"
+            ]
+          }
+        },
+        {
+          "id": "F10",
+          "type": "factuelle",
+          "question": "À partir de combien d'utilisateurs une plateforme est-elle considérée comme une très grande plateforme en ligne au sens du DSA ?",
+          "gold": [
+            "32022R2065_art_33"
+          ],
+          "retrieved_articles": [
+            "32022R2065_art_41",
+            "32024R1083_art_2",
+            "32022R2065_art_33",
+            "32022R2065_art_37",
+            "32022R2065_art_36"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.3333333333333333,
+          "retrieval_seconds": 0.14,
+          "n_articles": 5,
+          "context_chars": 7993,
+          "context_tokens_approx": 1998,
+          "graph_added": [
+            "32024R1083_art_2",
+            "32022R2065_art_37",
+            "32022R2065_art_36"
+          ],
+          "via": {
+            "32022R2065_art_41": [
+              "Règlement (UE) 2022/2065 (DSA), article 41 renvoie à Règlement (UE) 2022/2065 (DSA), article 34",
+              "Règlement (UE) 2022/2065 (DSA), article 41 est voisin de Règlement (UE) 2022/2065 (DSA), article 40 dans l'acte"
+            ],
+            "32024R1083_art_2": [
+              "Règlement (UE) 2024/1083 (EMFA), article 2 renvoie à Règlement (UE) 2022/2065 (DSA), article 33"
+            ],
+            "32022R2065_art_33": [
+              "Règlement (UE) 2022/2065 (DSA), article 19 renvoie à Règlement (UE) 2022/2065 (DSA), article 33",
+              "Règlement (UE) 2022/2065 (DSA), article 34 renvoie à Règlement (UE) 2022/2065 (DSA), article 33",
+              "Règlement (UE) 2022/2065 (DSA), article 29 renvoie à Règlement (UE) 2022/2065 (DSA), article 33",
+              "Règlement (UE) 2022/2065 (DSA), article 33 est voisin de Règlement (UE) 2022/2065 (DSA), article 34 dans l'acte"
+            ],
+            "32022R2065_art_37": [
+              "Règlement (UE) 2022/2065 (DSA), article 41 renvoie à Règlement (UE) 2022/2065 (DSA), article 37"
+            ],
+            "32022R2065_art_36": [
+              "Règlement (UE) 2024/1083 (EMFA), article 18 renvoie à Règlement (UE) 2022/2065 (DSA), article 36",
+              "Règlement (UE) 2022/2065 (DSA), article 36 renvoie à Règlement (UE) 2022/2065 (DSA), article 40"
+            ]
+          }
+        },
+        {
+          "id": "F11",
+          "type": "factuelle",
+          "question": "Quels seuils font présumer qu'une entreprise est un contrôleur d'accès selon le DMA ?",
+          "gold": [
+            "32022R1925_art_3"
+          ],
+          "retrieved_articles": [
+            "32022R1925_art_13",
+            "32022R1925_art_17",
+            "32022R1925_art_3",
+            "32022R1925_art_7",
+            "32022R1925_art_5"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.3333333333333333,
+          "retrieval_seconds": 0.13,
+          "n_articles": 5,
+          "context_chars": 5985,
+          "context_tokens_approx": 1496,
+          "graph_added": [
+            "32022R1925_art_17",
+            "32022R1925_art_7"
+          ],
+          "via": {
+            "32022R1925_art_13": [
+              "Règlement (UE) 2022/1925 (DMA), article 8 renvoie à Règlement (UE) 2022/1925 (DMA), article 13",
+              "Règlement (UE) 2022/1925 (DMA), article 13 renvoie à Règlement (UE) 2022/1925 (DMA), article 3",
+              "Règlement (UE) 2022/1925 (DMA), article 13 renvoie à Règlement (UE) 2022/1925 (DMA), article 5",
+              "Règlement (UE) 2022/1925 (DMA), article 13 renvoie à Règlement (UE) 2022/1925 (DMA), article 8",
+              "Règlement (UE) 2022/1925 (DMA), article 13 est voisin de Règlement (UE) 2022/1925 (DMA), article 12 dans l'acte",
+              "Règlement (UE) 2022/1925 (DMA), article 13 est voisin de Règlement (UE) 2022/1925 (DMA), article 14 dans l'acte"
+            ],
+            "32022R1925_art_17": [
+              "Règlement (UE) 2022/1925 (DMA), article 3 renvoie à Règlement (UE) 2022/1925 (DMA), article 17",
+              "Règlement (UE) 2022/1925 (DMA), article 17 renvoie à Règlement (UE) 2022/1925 (DMA), article 3",
+              "Règlement (UE) 2022/1925 (DMA), article 17 renvoie à Règlement (UE) 2022/1925 (DMA), article 5",
+              "Règlement (UE) 2022/1925 (DMA), article 17 renvoie à Règlement (UE) 2022/1925 (DMA), article 6"
+            ],
+            "32022R1925_art_3": [
+              "Règlement (UE) 2022/1925 (DMA), article 13 renvoie à Règlement (UE) 2022/1925 (DMA), article 3",
+              "Règlement (UE) 2022/1925 (DMA), article 5 renvoie à Règlement (UE) 2022/1925 (DMA), article 3",
+              "Règlement (UE) 2022/1925 (DMA), article 6 renvoie à Règlement (UE) 2022/1925 (DMA), article 3",
+              "Règlement (UE) 2022/1925 (DMA), article 27 renvoie à Règlement (UE) 2022/1925 (DMA), article 3",
+              "Règlement (UE) 2022/1925 (DMA), article 14 renvoie à Règlement (UE) 2022/1925 (DMA), article 3",
+              "Règlement (UE) 2022/1925 (DMA), article 3 renvoie à Règlement (UE) 2022/1925 (DMA), article 5"
+            ],
+            "32022R1925_art_7": [
+              "Règlement (UE) 2022/1925 (DMA), article 12 renvoie à Règlement (UE) 2022/1925 (DMA), article 7",
+              "Règlement (UE) 2022/1925 (DMA), article 7 renvoie à Règlement (UE) 2022/1925 (DMA), article 3",
+              "Règlement (UE) 2022/1925 (DMA), article 7 est voisin de Règlement (UE) 2022/1925 (DMA), article 6 dans l'acte",
+              "Règlement (UE) 2022/1925 (DMA), article 7 est voisin de Règlement (UE) 2022/1925 (DMA), article 8 dans l'acte"
+            ],
+            "32022R1925_art_5": [
+              "Règlement (UE) 2022/1925 (DMA), article 13 renvoie à Règlement (UE) 2022/1925 (DMA), article 5",
+              "Règlement (UE) 2022/1925 (DMA), article 3 renvoie à Règlement (UE) 2022/1925 (DMA), article 5",
+              "Règlement (UE) 2022/1925 (DMA), article 12 renvoie à Règlement (UE) 2022/1925 (DMA), article 5",
+              "Règlement (UE) 2022/1925 (DMA), article 8 renvoie à Règlement (UE) 2022/1925 (DMA), article 5",
+              "Règlement (UE) 2022/1925 (DMA), article 5 renvoie à Règlement (UE) 2022/1925 (DMA), article 3",
+              "Règlement (UE) 2022/1925 (DMA), article 5 est voisin de Règlement (UE) 2022/1925 (DMA), article 6 dans l'acte"
+            ]
+          }
+        },
+        {
+          "id": "F12",
+          "type": "factuelle",
+          "question": "Quelles sont les étapes et délais de notification d'un incident important prévus par NIS2 ?",
+          "gold": [
+            "32022L2555_art_23"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_23",
+            "32024R2847_art_16",
+            "32022L2555_art_13",
+            "32024R2847_art_15",
+            "32022L2555_art_33"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.16,
+          "n_articles": 5,
+          "context_chars": 6667,
+          "context_tokens_approx": 1667,
+          "graph_added": [
+            "32024R2847_art_16",
+            "32022L2555_art_13",
+            "32024R2847_art_15",
+            "32022L2555_art_33"
+          ],
+          "via": {
+            "32022L2555_art_23": [
+              "Directive (UE) 2022/2555 (NIS2), article 30 renvoie à Directive (UE) 2022/2555 (NIS2), article 23",
+              "Directive (UE) 2022/2555 (NIS2), article 32 renvoie à Directive (UE) 2022/2555 (NIS2), article 23",
+              "Directive (UE) 2022/2555 (NIS2), article 23 renvoie à Directive (UE) 2022/2555 (NIS2), article 30"
+            ],
+            "32024R2847_art_16": [
+              "Règlement (UE) 2024/2847 (CRA), article 14 renvoie à Règlement (UE) 2024/2847 (CRA), article 16",
+              "Règlement (UE) 2024/2847 (CRA), article 16 renvoie à Règlement (UE) 2024/2847 (CRA), article 14"
+            ],
+            "32022L2555_art_13": [
+              "Directive (UE) 2022/2555 (NIS2), article 13 renvoie à Directive (UE) 2022/2555 (NIS2), article 23",
+              "Directive (UE) 2022/2555 (NIS2), article 13 renvoie à Directive (UE) 2022/2555 (NIS2), article 30"
+            ],
+            "32024R2847_art_15": [
+              "Règlement (UE) 2024/2847 (CRA), article 14 renvoie à Règlement (UE) 2024/2847 (CRA), article 15",
+              "Règlement (UE) 2024/2847 (CRA), article 15 est voisin de Règlement (UE) 2024/2847 (CRA), article 14 dans l'acte"
+            ],
+            "32022L2555_art_33": [
+              "Directive (UE) 2022/2555 (NIS2), article 33 renvoie à Directive (UE) 2022/2555 (NIS2), article 23",
+              "Directive (UE) 2022/2555 (NIS2), article 33 renvoie à Directive (UE) 2022/2555 (NIS2), article 32",
+              "Directive (UE) 2022/2555 (NIS2), article 33 est voisin de Directive (UE) 2022/2555 (NIS2), article 32 dans l'acte"
+            ]
+          }
+        },
+        {
+          "id": "F13",
+          "type": "factuelle",
+          "question": "Dans quel délai un fabricant doit-il signaler une vulnérabilité activement exploitée dans un produit comportant des éléments numériques ?",
+          "gold": [
+            "32024R2847_art_14"
+          ],
+          "retrieved_articles": [
+            "32024R2847_art_14",
+            "32024R2847_art_17",
+            "32024R2847_art_54",
+            "32024R2847_art_22",
+            "32024R2847_art_15"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.13,
+          "n_articles": 5,
+          "context_chars": 7141,
+          "context_tokens_approx": 1785,
+          "graph_added": [
+            "32024R2847_art_17",
+            "32024R2847_art_54",
+            "32024R2847_art_22"
+          ],
+          "via": {
+            "32024R2847_art_14": [
+              "Règlement (UE) 2024/2847 (CRA), article 16 renvoie à Règlement (UE) 2024/2847 (CRA), article 14",
+              "Règlement (UE) 2024/2847 (CRA), article 14 renvoie à Règlement (UE) 2024/2847 (CRA), article 15",
+              "Règlement (UE) 2024/2847 (CRA), article 14 renvoie à Règlement (UE) 2024/2847 (CRA), article 16",
+              "Règlement (UE) 2024/2847 (CRA), article 14 est voisin de Règlement (UE) 2024/2847 (CRA), article 15 dans l'acte",
+              "Règlement (UE) 2024/2847 (CRA), article 14 est voisin de Règlement (UE) 2024/2847 (CRA), article 13 dans l'acte"
+            ],
+            "32024R2847_art_17": [
+              "Règlement (UE) 2024/2847 (CRA), article 17 renvoie à Règlement (UE) 2024/2847 (CRA), article 14",
+              "Règlement (UE) 2024/2847 (CRA), article 17 renvoie à Règlement (UE) 2024/2847 (CRA), article 15",
+              "Règlement (UE) 2024/2847 (CRA), article 17 est voisin de Règlement (UE) 2024/2847 (CRA), article 16 dans l'acte"
+            ],
+            "32024R2847_art_54": [
+              "Règlement (UE) 2024/2847 (CRA), article 19 renvoie à Règlement (UE) 2024/2847 (CRA), article 54"
+            ],
+            "32024R2847_art_22": [
+              "Règlement (UE) 2024/2847 (CRA), article 22 renvoie à Règlement (UE) 2024/2847 (CRA), article 14",
+              "Règlement (UE) 2024/2847 (CRA), article 22 renvoie à Règlement (UE) 2024/2847 (CRA), article 13"
+            ],
+            "32024R2847_art_15": [
+              "Règlement (UE) 2024/2847 (CRA), article 14 renvoie à Règlement (UE) 2024/2847 (CRA), article 15",
+              "Règlement (UE) 2024/2847 (CRA), article 16 renvoie à Règlement (UE) 2024/2847 (CRA), article 15",
+              "Règlement (UE) 2024/2847 (CRA), article 15 renvoie à Règlement (UE) 2024/2847 (CRA), article 16",
+              "Règlement (UE) 2024/2847 (CRA), article 15 est voisin de Règlement (UE) 2024/2847 (CRA), article 14 dans l'acte",
+              "Règlement (UE) 2024/2847 (CRA), article 15 est voisin de Règlement (UE) 2024/2847 (CRA), article 16 dans l'acte"
+            ]
+          }
+        },
+        {
+          "id": "F14",
+          "type": "factuelle",
+          "question": "Quelles obligations de transparence s'appliquent aux systèmes d'IA qui génèrent des hypertrucages (deepfakes) ?",
+          "gold": [
+            "32024R1689_art_50"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_50",
+            "32024R1689_art_15",
+            "32024R1689_art_17",
+            "32024R1689_art_24",
+            "32024R1689_art_13"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.14,
+          "n_articles": 5,
+          "context_chars": 6451,
+          "context_tokens_approx": 1613,
+          "graph_added": [
+            "32024R1689_art_15",
+            "32024R1689_art_17",
+            "32024R1689_art_24"
+          ],
+          "via": {
+            "32024R1689_art_50": [
+              "Règlement (UE) 2024/1689 (AI Act), article 26 renvoie à Règlement (UE) 2024/1689 (AI Act), article 50"
+            ],
+            "32024R1689_art_15": [
+              "Règlement (UE) 2024/1689 (AI Act), article 13 renvoie à Règlement (UE) 2024/1689 (AI Act), article 15",
+              "Règlement (UE) 2024/1689 (AI Act), article 15 est voisin de Règlement (UE) 2024/1689 (AI Act), article 16 dans l'acte"
+            ],
+            "32024R1689_art_17": [
+              "Règlement (UE) 2024/1689 (AI Act), article 16 renvoie à Règlement (UE) 2024/1689 (AI Act), article 17",
+              "Règlement (UE) 2024/1689 (AI Act), article 17 est voisin de Règlement (UE) 2024/1689 (AI Act), article 16 dans l'acte"
+            ],
+            "32024R1689_art_24": [
+              "Règlement (UE) 2024/1689 (AI Act), article 24 renvoie à Règlement (UE) 2024/1689 (AI Act), article 16",
+              "Règlement (UE) 2024/1689 (AI Act), article 24 est voisin de Règlement (UE) 2024/1689 (AI Act), article 25 dans l'acte"
+            ],
+            "32024R1689_art_13": [
+              "Règlement (UE) 2024/1689 (AI Act), article 26 renvoie à Règlement (UE) 2024/1689 (AI Act), article 13"
+            ]
+          }
+        },
+        {
+          "id": "R01",
+          "type": "relationnelle",
+          "question": "Quelle directive le RGPD abroge-t-il et à partir de quand ?",
+          "gold": [
+            "32016R0679_art_94"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_94",
+            "32016R0679_art_95",
+            "32016R0679_art_99",
+            "32016R0679_art_46",
+            "32016R0679_art_58"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.14,
+          "n_articles": 5,
+          "context_chars": 4171,
+          "context_tokens_approx": 1043,
+          "graph_added": [
+            "32016R0679_art_95",
+            "32016R0679_art_46"
+          ],
+          "via": {
+            "32016R0679_art_94": [
+              "Règlement (UE) 2016/679 (RGPD), article 94 abroge Directive 95/46/CE"
+            ],
+            "32016R0679_art_95": [
+              "Règlement (UE) 2016/679 (RGPD), article 95 est voisin de Règlement (UE) 2016/679 (RGPD), article 94 dans l'acte"
+            ],
+            "32016R0679_art_46": [
+              "Règlement (UE) 2016/679 (RGPD), article 58 renvoie à Règlement (UE) 2016/679 (RGPD), article 46",
+              "Règlement (UE) 2016/679 (RGPD), article 57 renvoie à Règlement (UE) 2016/679 (RGPD), article 46"
+            ],
+            "32016R0679_art_58": [
+              "Règlement (UE) 2016/679 (RGPD), article 57 renvoie à Règlement (UE) 2016/679 (RGPD), article 58",
+              "Règlement (UE) 2016/679 (RGPD), article 58 renvoie à Règlement (UE) 2016/679 (RGPD), article 17",
+              "Règlement (UE) 2016/679 (RGPD), article 58 est voisin de Règlement (UE) 2016/679 (RGPD), article 57 dans l'acte"
+            ]
+          }
+        },
+        {
+          "id": "R02",
+          "type": "relationnelle",
+          "question": "Comment le DSA modifie-t-il la directive sur le commerce électronique 2000/31/CE ?",
+          "gold": [
+            "32022R2065_art_89"
+          ],
+          "retrieved_articles": [
+            "32000L0031_art_13",
+            "32022R2065_art_89",
+            "32000L0031_art_19",
+            "32000L0031_art_2",
+            "32000L0031_art_23"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.5,
+          "retrieval_seconds": 0.1,
+          "n_articles": 5,
+          "context_chars": 3305,
+          "context_tokens_approx": 826,
+          "graph_added": [
+            "32022R2065_art_89",
+            "32000L0031_art_2"
+          ],
+          "via": {
+            "32022R2065_art_89": [
+              "Règlement (UE) 2022/2065 (DSA), article 89 modifie Directive 2000/31/CE",
+              "Règlement (UE) 2022/2065 (DSA), article 89 est voisin de Règlement (UE) 2022/2065 (DSA), article 90 dans l'acte"
+            ],
+            "32000L0031_art_19": [
+              "Directive 2000/31/CE (directive commerce électronique), article 19 est voisin de Directive 2000/31/CE (directive commerce électronique), article 18 dans l'acte"
+            ],
+            "32000L0031_art_2": [
+              "Règlement (UE) 2022/2065 (DSA), article 3 renvoie à Directive 2000/31/CE (directive commerce électronique), article 2"
+            ],
+            "32000L0031_art_23": [
+              "Directive 2000/31/CE (directive commerce électronique), article 23 est voisin de Directive 2000/31/CE (directive commerce électronique), article 24 dans l'acte",
+              "Directive 2000/31/CE (directive commerce électronique), article 23 est voisin de Directive 2000/31/CE (directive commerce électronique), article 22 dans l'acte"
+            ]
+          }
+        },
+        {
+          "id": "R03",
+          "type": "relationnelle",
+          "question": "Quelle directive est abrogée par NIS2 ?",
+          "gold": [
+            "32022L2555_art_44"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_44",
+            "32022L2555_art_23",
+            "32022L2555_art_32",
+            "32022L2555_art_29",
+            "32022L2555_art_27"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.1,
+          "n_articles": 5,
+          "context_chars": 3265,
+          "context_tokens_approx": 816,
+          "graph_added": [
+            "32022L2555_art_23",
+            "32022L2555_art_29"
+          ],
+          "via": {
+            "32022L2555_art_44": [
+              "Directive (UE) 2022/2555 (NIS2), article 44 abroge Directive (UE) 2016/1148",
+              "Directive (UE) 2022/2555 (NIS2), article 44 est voisin de Directive (UE) 2022/2555 (NIS2), article 43 dans l'acte"
+            ],
+            "32022L2555_art_23": [
+              "Directive (UE) 2022/2555 (NIS2), article 32 renvoie à Directive (UE) 2022/2555 (NIS2), article 23",
+              "Directive (UE) 2022/2555 (NIS2), article 33 renvoie à Directive (UE) 2022/2555 (NIS2), article 23"
+            ],
+            "32022L2555_art_32": [
+              "Directive (UE) 2022/2555 (NIS2), article 33 renvoie à Directive (UE) 2022/2555 (NIS2), article 32",
+              "Directive (UE) 2022/2555 (NIS2), article 32 renvoie à Directive (UE) 2022/2555 (NIS2), article 27",
+              "Directive (UE) 2022/2555 (NIS2), article 32 est voisin de Directive (UE) 2022/2555 (NIS2), article 33 dans l'acte"
+            ],
+            "32022L2555_art_29": [
+              "Directive (UE) 2022/2555 (NIS2), article 19 renvoie à Directive (UE) 2022/2555 (NIS2), article 29"
+            ],
+            "32022L2555_art_27": [
+              "Directive (UE) 2022/2555 (NIS2), article 32 renvoie à Directive (UE) 2022/2555 (NIS2), article 27",
+              "Directive (UE) 2022/2555 (NIS2), article 33 renvoie à Directive (UE) 2022/2555 (NIS2), article 27"
+            ]
+          }
+        },
+        {
+          "id": "R04",
+          "type": "relationnelle",
+          "question": "Sur quels articles du RGPD s'appuie l'obligation de réaliser une analyse d'impact, et quand est-elle requise ?",
+          "gold": [
+            "32016R0679_art_35"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_35",
+            "32016R0679_art_36",
+            "32016R0679_art_47",
+            "32016R0679_art_28",
+            "32018R1725_art_45"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.14,
+          "n_articles": 5,
+          "context_chars": 7865,
+          "context_tokens_approx": 1966,
+          "graph_added": [
+            "32016R0679_art_36",
+            "32016R0679_art_47",
+            "32016R0679_art_28",
+            "32018R1725_art_45"
+          ],
+          "via": {
+            "32016R0679_art_35": [
+              "Règlement (UE) 2024/1689 (AI Act), article 27 renvoie à Règlement (UE) 2016/679 (RGPD), article 35",
+              "Règlement (UE) 2016/679 (RGPD), article 57 renvoie à Règlement (UE) 2016/679 (RGPD), article 35"
+            ],
+            "32016R0679_art_36": [
+              "Règlement (UE) 2016/679 (RGPD), article 57 renvoie à Règlement (UE) 2016/679 (RGPD), article 36",
+              "Règlement (UE) 2016/679 (RGPD), article 36 renvoie à Règlement (UE) 2016/679 (RGPD), article 35",
+              "Règlement (UE) 2016/679 (RGPD), article 36 est voisin de Règlement (UE) 2016/679 (RGPD), article 35 dans l'acte"
+            ],
+            "32016R0679_art_47": [
+              "Règlement (UE) 2016/679 (RGPD), article 57 renvoie à Règlement (UE) 2016/679 (RGPD), article 47"
+            ],
+            "32016R0679_art_28": [
+              "Règlement (UE) 2016/679 (RGPD), article 57 renvoie à Règlement (UE) 2016/679 (RGPD), article 28"
+            ],
+            "32018R1725_art_45": [
+              "Règlement (UE) 2018/1725 (EUDPR), article 45 renvoie à Règlement (UE) 2018/1725 (EUDPR), article 39",
+              "Règlement (UE) 2018/1725 (EUDPR), article 45 renvoie à Règlement (UE) 2018/1725 (EUDPR), article 40"
+            ]
+          }
+        },
+        {
+          "id": "M01",
+          "type": "multi_hop",
+          "question": "Comparez les délais de notification d'incident du RGPD et de NIS2.",
+          "gold": [
+            "32016R0679_art_33",
+            "32022L2555_art_23"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_23",
+            "32024R2847_art_16",
+            "32024R2847_art_15",
+            "32022L2555_art_32",
+            "32024R2847_art_14"
+          ],
+          "recall": 0.5,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.17,
+          "n_articles": 5,
+          "context_chars": 8379,
+          "context_tokens_approx": 2095,
+          "graph_added": [
+            "32024R2847_art_16",
+            "32024R2847_art_15",
+            "32022L2555_art_32"
+          ],
+          "via": {
+            "32022L2555_art_23": [
+              "Directive (UE) 2022/2555 (NIS2), article 30 renvoie à Directive (UE) 2022/2555 (NIS2), article 23",
+              "Directive (UE) 2022/2555 (NIS2), article 23 renvoie à Directive (UE) 2022/2555 (NIS2), article 30"
+            ],
+            "32024R2847_art_16": [
+              "Règlement (UE) 2024/2847 (CRA), article 14 renvoie à Règlement (UE) 2024/2847 (CRA), article 16",
+              "Règlement (UE) 2024/2847 (CRA), article 16 renvoie à Règlement (UE) 2024/2847 (CRA), article 14"
+            ],
+            "32024R2847_art_15": [
+              "Règlement (UE) 2024/2847 (CRA), article 14 renvoie à Règlement (UE) 2024/2847 (CRA), article 15",
+              "Règlement (UE) 2024/2847 (CRA), article 15 est voisin de Règlement (UE) 2024/2847 (CRA), article 14 dans l'acte"
+            ],
+            "32022L2555_art_32": [
+              "Directive (UE) 2022/2555 (NIS2), article 32 renvoie à Directive (UE) 2022/2555 (NIS2), article 23"
+            ]
+          }
+        },
+        {
+          "id": "M02",
+          "type": "multi_hop",
+          "question": "Quels sont les plafonds d'amende du RGPD, de l'AI Act et du DMA ?",
+          "gold": [
+            "32016R0679_art_83",
+            "32024R1689_art_99",
+            "32022R1925_art_30"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_83",
+            "32024R1689_art_101",
+            "32024R1689_art_99",
+            "32024R1689_art_5",
+            "32022R1925_art_30"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.17,
+          "n_articles": 5,
+          "context_chars": 5550,
+          "context_tokens_approx": 1388,
+          "graph_added": [
+            "32024R1689_art_101",
+            "32024R1689_art_5"
+          ],
+          "via": {
+            "32016R0679_art_83": [
+              "Règlement (UE) 2016/679 (RGPD), article 58 renvoie à Règlement (UE) 2016/679 (RGPD), article 83",
+              "Règlement (UE) 2016/679 (RGPD), article 83 renvoie à Règlement (UE) 2016/679 (RGPD), article 58"
+            ],
+            "32024R1689_art_101": [
+              "Règlement (UE) 2024/1689 (AI Act), article 101 est voisin de Règlement (UE) 2024/1689 (AI Act), article 100 dans l'acte"
+            ],
+            "32024R1689_art_99": [
+              "Règlement (UE) 2024/1689 (AI Act), article 99 est voisin de Règlement (UE) 2024/1689 (AI Act), article 100 dans l'acte"
+            ],
+            "32024R1689_art_5": [
+              "Règlement (UE) 2024/1689 (AI Act), article 99 renvoie à Règlement (UE) 2024/1689 (AI Act), article 5",
+              "Règlement (UE) 2024/1689 (AI Act), article 100 renvoie à Règlement (UE) 2024/1689 (AI Act), article 5"
+            ],
+            "32022R1925_art_30": [
+              "Règlement (UE) 2022/1925 (DMA), article 33 renvoie à Règlement (UE) 2022/1925 (DMA), article 30"
+            ]
+          }
+        },
+        {
+          "id": "M03",
+          "type": "multi_hop",
+          "question": "Quelles obligations pèsent sur les très grandes plateformes en ligne : à partir de quand sont-elles désignées et quels risques doivent-elles évaluer ?",
+          "gold": [
+            "32022R2065_art_33",
+            "32022R2065_art_34"
+          ],
+          "retrieved_articles": [
+            "32022R2065_art_34",
+            "32022R2065_art_35",
+            "32022R2065_art_92",
+            "32022R2065_art_33",
+            "32022R2065_art_75"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.15,
+          "n_articles": 5,
+          "context_chars": 6618,
+          "context_tokens_approx": 1654,
+          "graph_added": [
+            "32022R2065_art_35",
+            "32022R2065_art_92",
+            "32022R2065_art_75"
+          ],
+          "via": {
+            "32022R2065_art_34": [
+              "Règlement (UE) 2022/2065 (DSA), article 41 renvoie à Règlement (UE) 2022/2065 (DSA), article 34",
+              "Règlement (UE) 2022/2065 (DSA), article 45 renvoie à Règlement (UE) 2022/2065 (DSA), article 34",
+              "Règlement (UE) 2022/2065 (DSA), article 42 renvoie à Règlement (UE) 2022/2065 (DSA), article 34",
+              "Règlement (UE) 2022/2065 (DSA), article 34 renvoie à Règlement (UE) 2022/2065 (DSA), article 33",
+              "Règlement (UE) 2022/2065 (DSA), article 34 est voisin de Règlement (UE) 2022/2065 (DSA), article 33 dans l'acte"
+            ],
+            "32022R2065_art_35": [
+              "Règlement (UE) 2022/2065 (DSA), article 41 renvoie à Règlement (UE) 2022/2065 (DSA), article 35",
+              "Règlement (UE) 2022/2065 (DSA), article 36 renvoie à Règlement (UE) 2022/2065 (DSA), article 35",
+              "Règlement (UE) 2022/2065 (DSA), article 42 renvoie à Règlement (UE) 2022/2065 (DSA), article 35",
+              "Règlement (UE) 2022/2065 (DSA), article 35 renvoie à Règlement (UE) 2022/2065 (DSA), article 34",
+              "Règlement (UE) 2022/2065 (DSA), article 35 renvoie à Règlement (UE) 2022/2065 (DSA), article 45",
+              "Règlement (UE) 2022/2065 (DSA), article 35 renvoie à Règlement (UE) 2022/2065 (DSA), article 22",
+              "Règlement (UE) 2022/2065 (DSA), article 35 est voisin de Règlement (UE) 2022/2065 (DSA), article 34 dans l'acte",
+              "Règlement (UE) 2022/2065 (DSA), article 35 est voisin de Règlement (UE) 2022/2065 (DSA), article 36 dans l'acte"
+            ],
+            "32022R2065_art_92": [
+              "Règlement (UE) 2022/2065 (DSA), article 92 renvoie à Règlement (UE) 2022/2065 (DSA), article 33"
+            ],
+            "32022R2065_art_33": [
+              "Règlement (UE) 2022/2065 (DSA), article 34 renvoie à Règlement (UE) 2022/2065 (DSA), article 33",
+              "Règlement (UE) 2022/2065 (DSA), article 42 renvoie à Règlement (UE) 2022/2065 (DSA), article 33",
+              "Règlement (UE) 2022/2065 (DSA), article 33 est voisin de Règlement (UE) 2022/2065 (DSA), article 34 dans l'acte"
+            ],
+            "32022R2065_art_75": [
+              "Règlement (UE) 2022/2065 (DSA), article 75 renvoie à Règlement (UE) 2022/2065 (DSA), article 45",
+              "Règlement (UE) 2022/2065 (DSA), article 75 renvoie à Règlement (UE) 2022/2065 (DSA), article 37"
+            ]
+          }
+        },
+        {
+          "id": "M04",
+          "type": "multi_hop",
+          "question": "Comparez les obligations de signalement d'incidents de NIS2 et du Cyber Resilience Act.",
+          "gold": [
+            "32022L2555_art_23",
+            "32024R2847_art_14"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_23",
+            "32024R2847_art_15",
+            "32024R2847_art_14",
+            "32022L2555_art_15",
+            "32024R1366_art_41"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.14,
+          "n_articles": 5,
+          "context_chars": 7740,
+          "context_tokens_approx": 1935,
+          "graph_added": [
+            "32024R2847_art_15",
+            "32022L2555_art_15",
+            "32024R1366_art_41"
+          ],
+          "via": {
+            "32024R2847_art_15": [
+              "Règlement (UE) 2024/2847 (CRA), article 14 renvoie à Règlement (UE) 2024/2847 (CRA), article 15",
+              "Règlement (UE) 2024/2847 (CRA), article 15 est voisin de Règlement (UE) 2024/2847 (CRA), article 14 dans l'acte"
+            ],
+            "32022L2555_art_15": [
+              "Règlement (UE) 2024/2847 (CRA), article 14 renvoie à Directive (UE) 2022/2555 (NIS2), article 15",
+              "Directive (UE) 2022/2555 (NIS2), article 15 renvoie à Directive (UE) 2022/2555 (NIS2), article 9"
+            ],
+            "32024R1366_art_41": [
+              "Règlement délégué (UE) 2024/1366, article 41 renvoie à Directive (UE) 2022/2555 (NIS2), article 6",
+              "Règlement délégué (UE) 2024/1366, article 41 renvoie à Directive (UE) 2022/2555 (NIS2), article 9"
+            ]
+          }
+        },
+        {
+          "id": "M05",
+          "type": "multi_hop",
+          "question": "Quelles amendes les États membres doivent-ils prévoir pour les entités essentielles et importantes sous NIS2, et comment se comparent-elles aux amendes du RGPD ?",
+          "gold": [
+            "32022L2555_art_34",
+            "32016R0679_art_83"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_34",
+            "32022L2555_art_33",
+            "32022L2555_art_23",
+            "32022L2555_art_2",
+            "32016R0679_art_83"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.16,
+          "n_articles": 5,
+          "context_chars": 6712,
+          "context_tokens_approx": 1678,
+          "graph_added": [
+            "32022L2555_art_33",
+            "32022L2555_art_23",
+            "32022L2555_art_2"
+          ],
+          "via": {
+            "32022L2555_art_34": [
+              "Directive (UE) 2022/2555 (NIS2), article 32 renvoie à Directive (UE) 2022/2555 (NIS2), article 34",
+              "Directive (UE) 2022/2555 (NIS2), article 34 renvoie à Directive (UE) 2022/2555 (NIS2), article 32"
+            ],
+            "32022L2555_art_33": [
+              "Directive (UE) 2022/2555 (NIS2), article 34 renvoie à Directive (UE) 2022/2555 (NIS2), article 33",
+              "Directive (UE) 2022/2555 (NIS2), article 33 renvoie à Directive (UE) 2022/2555 (NIS2), article 34",
+              "Directive (UE) 2022/2555 (NIS2), article 33 renvoie à Directive (UE) 2022/2555 (NIS2), article 32",
+              "Directive (UE) 2022/2555 (NIS2), article 33 est voisin de Directive (UE) 2022/2555 (NIS2), article 34 dans l'acte",
+              "Directive (UE) 2022/2555 (NIS2), article 33 est voisin de Directive (UE) 2022/2555 (NIS2), article 32 dans l'acte"
+            ],
+            "32022L2555_art_23": [
+              "Directive (UE) 2022/2555 (NIS2), article 32 renvoie à Directive (UE) 2022/2555 (NIS2), article 23",
+              "Directive (UE) 2022/2555 (NIS2), article 30 renvoie à Directive (UE) 2022/2555 (NIS2), article 23",
+              "Directive (UE) 2022/2555 (NIS2), article 23 renvoie à Directive (UE) 2022/2555 (NIS2), article 30"
+            ],
+            "32022L2555_art_2": [
+              "Directive (UE) 2022/2555 (NIS2), article 3 renvoie à Directive (UE) 2022/2555 (NIS2), article 2",
+              "Directive (UE) 2022/2555 (NIS2), article 2 renvoie à Directive (UE) 2022/2555 (NIS2), article 3",
+              "Directive (UE) 2022/2555 (NIS2), article 2 est voisin de Directive (UE) 2022/2555 (NIS2), article 3 dans l'acte"
+            ],
+            "32016R0679_art_83": [
+              "Règlement (UE) 2016/679 (RGPD), article 84 renvoie à Règlement (UE) 2016/679 (RGPD), article 83",
+              "Règlement (UE) 2016/679 (RGPD), article 83 est voisin de Règlement (UE) 2016/679 (RGPD), article 84 dans l'acte"
+            ]
+          }
+        },
+        {
+          "id": "M06",
+          "type": "multi_hop",
+          "question": "Quel droit d'accès aux données des produits connectés le Data Act donne-t-il à l'utilisateur, et peut-il les partager avec un tiers ?",
+          "gold": [
+            "32023R2854_art_3",
+            "32023R2854_art_4",
+            "32023R2854_art_5"
+          ],
+          "retrieved_articles": [
+            "32023R2854_art_5",
+            "32023R2854_art_11",
+            "32023R2854_art_8",
+            "32023R2854_art_6",
+            "32023R2854_art_33"
+          ],
+          "recall": 0.3333333333333333,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.12,
+          "n_articles": 5,
+          "context_chars": 7589,
+          "context_tokens_approx": 1897,
+          "graph_added": [
+            "32023R2854_art_11",
+            "32023R2854_art_8",
+            "32023R2854_art_33"
+          ],
+          "via": {
+            "32023R2854_art_5": [
+              "Règlement (UE) 2023/2854 (Data Act), article 6 renvoie à Règlement (UE) 2023/2854 (Data Act), article 5",
+              "Règlement (UE) 2023/2854 (Data Act), article 5 renvoie à Règlement (UE) 2023/2854 (Data Act), article 4",
+              "Règlement (UE) 2023/2854 (Data Act), article 5 est voisin de Règlement (UE) 2023/2854 (Data Act), article 6 dans l'acte",
+              "Règlement (UE) 2023/2854 (Data Act), article 5 est voisin de Règlement (UE) 2023/2854 (Data Act), article 4 dans l'acte"
+            ],
+            "32023R2854_art_11": [
+              "Règlement (UE) 2023/2854 (Data Act), article 11 renvoie à Règlement (UE) 2023/2854 (Data Act), article 5",
+              "Règlement (UE) 2023/2854 (Data Act), article 11 renvoie à Règlement (UE) 2023/2854 (Data Act), article 6",
+              "Règlement (UE) 2023/2854 (Data Act), article 11 renvoie à Règlement (UE) 2023/2854 (Data Act), article 4"
+            ],
+            "32023R2854_art_8": [
+              "Règlement (UE) 2023/2854 (Data Act), article 5 renvoie à Règlement (UE) 2023/2854 (Data Act), article 8",
+              "Règlement (UE) 2023/2854 (Data Act), article 8 renvoie à Règlement (UE) 2023/2854 (Data Act), article 5",
+              "Règlement (UE) 2023/2854 (Data Act), article 8 renvoie à Règlement (UE) 2023/2854 (Data Act), article 4",
+              "Règlement (UE) 2023/2854 (Data Act), article 8 est voisin de Règlement (UE) 2023/2854 (Data Act), article 7 dans l'acte"
+            ],
+            "32023R2854_art_6": [
+              "Règlement (UE) 2023/2854 (Data Act), article 6 renvoie à Règlement (UE) 2023/2854 (Data Act), article 5",
+              "Règlement (UE) 2023/2854 (Data Act), article 6 est voisin de Règlement (UE) 2023/2854 (Data Act), article 5 dans l'acte",
+              "Règlement (UE) 2023/2854 (Data Act), article 6 est voisin de Règlement (UE) 2023/2854 (Data Act), article 7 dans l'acte"
+            ],
+            "32023R2854_art_33": [
+              "Règlement (UE) 2023/2854 (Data Act), article 33 est voisin de Règlement (UE) 2023/2854 (Data Act), article 32 dans l'acte"
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "global": {
+          "n": 24,
+          "recall@k": 0.951,
+          "hit@k": 1.0,
+          "mrr": 0.837,
+          "retrieval_seconds": 0.143,
+          "n_articles": 5.0,
+          "context_tokens_approx": 1608.292
+        },
+        "factuelle": {
+          "n": 14,
+          "recall@k": 1.0,
+          "hit@k": 1.0,
+          "mrr": 0.756,
+          "retrieval_seconds": 0.146,
+          "n_articles": 5.0,
+          "context_tokens_approx": 1664.357
+        },
+        "multi_hop": {
+          "n": 6,
+          "recall@k": 0.806,
+          "hit@k": 1.0,
+          "mrr": 1.0,
+          "retrieval_seconds": 0.152,
+          "n_articles": 5.0,
+          "context_tokens_approx": 1774.5
+        },
+        "relationnelle": {
+          "n": 4,
+          "recall@k": 1.0,
+          "hit@k": 1.0,
+          "mrr": 0.875,
+          "retrieval_seconds": 0.12,
+          "n_articles": 5.0,
+          "context_tokens_approx": 1162.75
+        }
+      }
+    }
+  ]
+}

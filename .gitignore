@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+
+# Historique des conversations de l'agent dans l'interface
+data/cache/*.sqlite
+data/cache/*.sqlite-shm
+data/cache/*.sqlite-wal
+.ipynb_checkpoints/
